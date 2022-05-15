@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.TestAlerts" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-15T12:26:06" hostname="ARTEMKA" time="11.497">
+  <properties/>
+  <testcase name="alertsBtn1" classname="tests.TestAlerts" time="11.497"/>
+  <system-out><![CDATA[Please enter your name
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
