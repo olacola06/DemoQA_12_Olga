@@ -1,11 +1,9 @@
 package tests;
 
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class TestAlerts extends BaseAlerts {
+public class TestAlerts extends Base {
 
     @BeforeMethod
     public void preCondition() {
