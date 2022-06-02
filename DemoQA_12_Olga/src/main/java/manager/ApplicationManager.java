@@ -15,7 +15,6 @@ import java.util.concurrent.TimeUnit;
 public class ApplicationManager {
     EventFiringWebDriver wd;
     String browser;
-
     Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
 
     public ApplicationManager(String browser) {
@@ -39,6 +38,8 @@ public class ApplicationManager {
             logger.info("All tests start in Edge");
             wd = new EventFiringWebDriver(new FirefoxDriver());
         }
+        wd.register(new MyListener());
+
         wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         wd.navigate().to("https://demoqa.com/");

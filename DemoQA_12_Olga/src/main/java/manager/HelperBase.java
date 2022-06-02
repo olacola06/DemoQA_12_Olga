@@ -1,8 +1,11 @@
 package manager;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import com.google.common.io.Files;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.Select;
+
+import java.io.File;
+import java.io.IOException;
 
 public class HelperBase {
     WebDriver wd;
@@ -13,6 +16,19 @@ public class HelperBase {
 
     public void click(By locator){
         wd.findElement(locator).click();
+    }
+    public void type(By locator, String message){
+        WebElement e =wd.findElement(locator);
+        e.click();
+        e.clear();
+        e.sendKeys(message);
+    }
+    public void selectValue(By locator, String option){
+        new Select(wd.findElement(locator)).selectByValue(option);
+
+    }
+    public void selectText(By locator, String option){
+        new Select(wd.findElement(locator)).selectByVisibleText(option);
     }
 
     public void clickAlertsBtn() {
@@ -31,4 +47,14 @@ public class HelperBase {
         }
     }
 
+    public void makeScreenShot(String link) {
+        File shot =((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
+
+        try{
+            Files.copy(shot,new File(link));
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+
+    }
 }
