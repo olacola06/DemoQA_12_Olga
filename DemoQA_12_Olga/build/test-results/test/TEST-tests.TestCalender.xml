@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.TestCalender" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-06-02T10:44:36" hostname="DESKTOP-KF54E9L" time="11.451">
+<testsuite name="tests.TestCalender" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-06-05T07:33:45" hostname="ARTEMKA" time="2.431">
   <properties/>
-  <testcase name="fillStudentRegistrationForm" classname="tests.TestCalender" time="11.451">
-    <failure message="org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@value='Male'] (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'&#10;Driver info: org.openqa.selenium.support.events.EventFiringWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54458}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 1314ffd9b54663f3158f17a5b367d241" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@value='Male'] (tried for 10 second(s) with 500 milliseconds interval)
+  <testcase name="fillStudentRegistrationForm" classname="tests.TestCalender" time="2.431">
+    <failure message="org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input type=&quot;text&quot; id=&quot;dateOfBirthInput&quot; class=&quot;form-control react-datepicker-ignore-onclickoutside&quot; value=&quot;05 Jun 2022January/03/2005&quot;&gt; is not clickable at point (691, 457). Other element would receive the click: &lt;div&gt;...&lt;/div&gt;&#10;  (Session info: chrome=102.0.5005.63)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60229}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c964be701a1a3fb2f4c06ee0fdc10141" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input type=&quot;text&quot; id=&quot;dateOfBirthInput&quot; class=&quot;form-control react-datepicker-ignore-onclickoutside&quot; value=&quot;05 Jun 2022January/03/2005&quot;&gt; is not clickable at point (691, 457). Other element would receive the click: &lt;div&gt;...&lt;/div&gt;
+  (Session info: chrome=102.0.5005.63)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
-Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54458}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1314ffd9b54663f3158f17a5b367d241
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at manager.HelperCalender.chooseGender(HelperCalender.java:33)
-	at manager.HelperCalender.fillRegistForm(HelperCalender.java:19)
-	at tests.TestCalender.fillStudentRegistrationForm(TestCalender.java:25)
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60229}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c964be701a1a3fb2f4c06ee0fdc10141
+	at manager.MyListener.onException(MyListener.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at com.sun.proxy.$Proxy11.onException(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:406)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at manager.HelperCalender.selectDateOfBirth(HelperCalender.java:42)
+	at manager.HelperCalender.fillRegistForm(HelperCalender.java:30)
+	at tests.TestCalender.fillStudentRegistrationForm(TestCalender.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -61,54 +70,41 @@ Session ID: 1314ffd9b54663f3158f17a5b367d241
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <system-out><![CDATA[13:44:35 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[text()='Forms']
-13:44:35 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Forms'] was found
-13:44:36 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div.element-list.collapse.show
-13:44:36 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.element-list.collapse.show was found
-13:44:36 INFO  tests.Base - Starts test named:--> fillStudentRegistrationForm
-13:44:36 INFO  manager.MyListener - Start to find element with locator-->By.id: firstName
-13:44:36 INFO  manager.MyListener - Element with locator-->By.id: firstName was found
-13:44:36 INFO  manager.MyListener - Start to find element with locator-->By.id: lastName
-13:44:36 INFO  manager.MyListener - Element with locator-->By.id: lastName was found
-13:44:37 INFO  manager.MyListener - Start to find element with locator-->By.id: userEmail
-13:44:37 INFO  manager.MyListener - Element with locator-->By.id: userEmail was found
-13:44:37 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[@value='Male']
-13:44:37 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@value='Male'] was found
-13:44:38 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[@value='Male']
-13:44:38 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@value='Male'] was found
-13:44:39 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[@value='Male']
-13:44:39 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@value='Male'] was found
-13:44:39 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[@value='Male']
-13:44:39 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@value='Male'] was found
-13:44:40 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[@value='Male']
-13:44:40 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@value='Male'] was found
-13:44:40 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[@value='Male']
-13:44:40 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@value='Male'] was found
-13:44:41 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[@value='Male']
-13:44:41 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@value='Male'] was found
-13:44:42 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[@value='Male']
-13:44:42 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@value='Male'] was found
-13:44:42 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[@value='Male']
-13:44:42 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@value='Male'] was found
-13:44:43 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[@value='Male']
-13:44:43 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@value='Male'] was found
-13:44:43 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[@value='Male']
-13:44:43 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@value='Male'] was found
-13:44:44 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[@value='Male']
-13:44:44 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@value='Male'] was found
-13:44:44 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[@value='Male']
-13:44:44 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@value='Male'] was found
-13:44:45 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[@value='Male']
-13:44:45 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@value='Male'] was found
-13:44:46 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[@value='Male']
-13:44:46 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@value='Male'] was found
-13:44:46 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[@value='Male']
-13:44:46 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@value='Male'] was found
-13:44:47 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[@value='Male']
-13:44:47 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@value='Male'] was found
-13:44:47 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[@value='Male']
-13:44:47 INFO  manager.MyListener - Element with locator-->By.xpath: //*[@value='Male'] was found
-13:44:47 INFO  tests.Base - Finished test named:--> fillStudentRegistrationForm
+  <system-out><![CDATA[10:33:44 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[text()='Forms']/ancestor::div[3]
+10:33:44 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Forms']/ancestor::div[3] was found
+10:33:45 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div.element-list.collapse.show
+10:33:45 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.element-list.collapse.show was found
+10:33:45 INFO  tests.Base - Starts test named:--> fillStudentRegistrationForm
+10:33:45 INFO  manager.MyListener - Start to find element with locator-->By.id: firstName
+10:33:45 INFO  manager.MyListener - Element with locator-->By.id: firstName was found
+10:33:45 INFO  manager.MyListener - Start to find element with locator-->By.id: lastName
+10:33:45 INFO  manager.MyListener - Element with locator-->By.id: lastName was found
+10:33:45 INFO  manager.MyListener - Start to find element with locator-->By.id: userEmail
+10:33:45 INFO  manager.MyListener - Element with locator-->By.id: userEmail was found
+10:33:45 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //label[@for='gender-radio-2']
+10:33:45 INFO  manager.MyListener - Element with locator-->By.xpath: //label[@for='gender-radio-2'] was found
+10:33:45 INFO  manager.MyListener - Start to find element with locator-->By.id: userNumber
+10:33:45 INFO  manager.MyListener - Element with locator-->By.id: userNumber was found
+10:33:45 INFO  manager.MyListener - Start to find element with locator-->By.id: dateOfBirthInput
+10:33:45 INFO  manager.MyListener - Element with locator-->By.id: dateOfBirthInput was found
+10:33:46 INFO  manager.MyListener - Start to find element with locator-->By.id: dateOfBirthInput
+10:33:46 INFO  manager.MyListener - Element with locator-->By.id: dateOfBirthInput was found
+10:33:47 INFO  manager.MyListener - Something went wrong-->https://demoqa.com/automation-practice-form
+10:33:47 INFO  manager.MyListener - element click intercepted: Element <input type="text" id="dateOfBirthInput" class="form-control react-datepicker-ignore-onclickoutside" value="05 Jun 2022January/03/2005"> is not clickable at point (691, 457). Other element would receive the click: <div>...</div>
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60229}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c964be701a1a3fb2f4c06ee0fdc10141
+10:33:47 INFO  manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="text" id="dateOfBirthInput" class="form-control react-datepicker-ignore-onclickoutside" value="05 Jun 2022January/03/2005"> is not clickable at point (691, 457). Other element would receive the click: <div>...</div>
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60229}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c964be701a1a3fb2f4c06ee0fdc10141
+10:33:47 INFO  tests.Base - Finished test named:--> fillStudentRegistrationForm
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

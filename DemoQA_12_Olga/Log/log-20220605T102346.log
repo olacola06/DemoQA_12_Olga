@@ -1,0 +1,45 @@
+10:23:46 INFO  manager.ApplicationManager - All tests start in Chrome
+10:23:52 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[text()='Forms']/ancestor::div[3]
+10:23:52 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Forms']/ancestor::div[3] was found
+10:23:52 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div.element-list.collapse.show
+10:23:52 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.element-list.collapse.show was found
+10:23:52 INFO  tests.Base - Starts test named:--> fillStudentRegistrationForm
+10:23:52 INFO  manager.MyListener - Start to find element with locator-->By.id: firstName
+10:23:52 INFO  manager.MyListener - Element with locator-->By.id: firstName was found
+10:23:52 INFO  manager.MyListener - Start to find element with locator-->By.id: lastName
+10:23:52 INFO  manager.MyListener - Element with locator-->By.id: lastName was found
+10:23:52 INFO  manager.MyListener - Start to find element with locator-->By.id: userEmail
+10:23:52 INFO  manager.MyListener - Element with locator-->By.id: userEmail was found
+10:23:52 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //label[@for='gender-radio-2']
+10:23:52 INFO  manager.MyListener - Element with locator-->By.xpath: //label[@for='gender-radio-2'] was found
+10:23:52 INFO  manager.MyListener - Start to find element with locator-->By.id: userNumber
+10:23:52 INFO  manager.MyListener - Element with locator-->By.id: userNumber was found
+10:23:53 INFO  manager.MyListener - Start to find element with locator-->By.id: dateOfBirthInput
+10:23:53 INFO  manager.MyListener - Element with locator-->By.id: dateOfBirthInput was found
+10:23:53 INFO  manager.MyListener - Start to find element with locator-->By.id: dateOfBirthInput
+10:23:53 INFO  manager.MyListener - Element with locator-->By.id: dateOfBirthInput was found
+10:23:53 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: select.react-datepicker__year-select
+10:23:53 INFO  manager.MyListener - Element with locator-->By.cssSelector: select.react-datepicker__year-select was found
+10:23:53 INFO  manager.MyListener - Start to find element with locator-->By.xpath: .//option[@value = "2005"]
+10:23:53 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "2005"] was found
+10:23:53 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: react-datepicker__month-select
+10:23:58 INFO  manager.MyListener - Something went wrong-->https://demoqa.com/automation-practice-form
+10:23:58 INFO  manager.MyListener - no such element: Unable to locate element: {"method":"css selector","selector":"react-datepicker__month-select"}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52862}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6058797872bff8eabf90ec307f56b764
+*** Element info: {Using=css selector, value=react-datepicker__month-select}
+10:23:58 INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"react-datepicker__month-select"}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52862}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6058797872bff8eabf90ec307f56b764
+*** Element info: {Using=css selector, value=react-datepicker__month-select}
+10:23:58 INFO  tests.Base - Finished test named:--> fillStudentRegistrationForm

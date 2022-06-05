@@ -1,14 +1,12 @@
 package manager;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.AbstractWebDriverEventListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.io.File;
-import java.nio.file.Files;
 
 public class MyListener extends AbstractWebDriverEventListener {
 
@@ -38,7 +36,7 @@ public class MyListener extends AbstractWebDriverEventListener {
         logger.info(String.valueOf (throwable.fillInStackTrace()));
 
         int i = (int)(System.currentTimeMillis())/1000%3600;
-        String screenshotName = "DemoQA_12_Olga/src/test/screenshots/screenshot"+i+".png";
+        String screenshotName = "C:/Users/Olga/DemoQA_12_Olga/DemoQA_12_Olga/src/test/screnshots/screenshot"+i+".png";
         HelperBase helper = new HelperBase(driver);
         helper.makeScreenShot(screenshotName);
 

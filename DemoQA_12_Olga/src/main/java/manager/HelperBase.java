@@ -33,7 +33,6 @@ public class HelperBase {
 
     public void clickAlertsBtn() {
         click(By.xpath("//*[text()='Alerts, Frame & Windows']/ancestor::div[3]"));
-
     }
 
     public void chooseAlerts() {

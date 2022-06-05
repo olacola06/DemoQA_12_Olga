@@ -1,0 +1,39 @@
+09:48:10 INFO  manager.ApplicationManager - All tests start in Chrome
+09:48:22 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[text()='Forms']/ancestor::div[3]
+09:48:22 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Forms']/ancestor::div[3] was found
+09:48:22 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div.element-list.collapse.show
+09:48:22 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.element-list.collapse.show was found
+09:48:22 INFO  tests.Base - Starts test named:--> fillStudentRegistrationForm
+09:48:22 INFO  manager.MyListener - Start to find element with locator-->By.id: firstName
+09:48:22 INFO  manager.MyListener - Element with locator-->By.id: firstName was found
+09:48:22 INFO  manager.MyListener - Start to find element with locator-->By.id: lastName
+09:48:22 INFO  manager.MyListener - Element with locator-->By.id: lastName was found
+09:48:22 INFO  manager.MyListener - Start to find element with locator-->By.id: userEmail
+09:48:22 INFO  manager.MyListener - Element with locator-->By.id: userEmail was found
+09:48:22 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //label[@for='gender-radio-2']
+09:48:22 INFO  manager.MyListener - Element with locator-->By.xpath: //label[@for='gender-radio-2'] was found
+09:48:22 INFO  manager.MyListener - Start to find element with locator-->By.id: userNumber
+09:48:22 INFO  manager.MyListener - Element with locator-->By.id: userNumber was found
+09:48:23 INFO  manager.MyListener - Start to find element with locator-->By.id: subjectsInput
+09:48:23 INFO  manager.MyListener - Element with locator-->By.id: subjectsInput was found
+09:48:23 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div.col-md-3 col-sm-12
+09:48:28 INFO  manager.MyListener - Something went wrong-->https://demoqa.com/automation-practice-form
+09:48:28 INFO  manager.MyListener - no such element: Unable to locate element: {"method":"css selector","selector":"div.col-md-3 col-sm-12"}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52001}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 19f365d59892388312f4f605a6dd0441
+*** Element info: {Using=css selector, value=div.col-md-3 col-sm-12}
+09:48:28 INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.col-md-3 col-sm-12"}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52001}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 19f365d59892388312f4f605a6dd0441
+*** Element info: {Using=css selector, value=div.col-md-3 col-sm-12}
+09:48:28 INFO  tests.Base - Finished test named:--> fillStudentRegistrationForm
