@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e28e6dcb-f0cb-4262-9176-3fe09196cc9e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220605T094810.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220605T101935.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220605T102051.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220605T102113.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220605T102346.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220605T102530.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220605T102811.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220605T103134.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220605T103339.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +72,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Olga/GitHub/DemoQA_12_Olga/DemoQA_12_Olga",
+    "last_opened_file_path": "C:/Users/Olga/QA12_Olga_PhoneBook/QA12_Olga_PhoneBook",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
