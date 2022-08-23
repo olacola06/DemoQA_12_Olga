@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e28e6dcb-f0cb-4262-9176-3fe09196cc9e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Log/log-20220605T094810.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220605T101935.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220605T102051.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220605T102113.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220605T102346.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220605T102530.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220605T102811.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220605T103134.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220605T103339.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DemoQA_12_Olga.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperCalender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperCalender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/MyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/MyListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestAlerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestAlerts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestCalender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestCalender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screnshots/screenshot2094.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screnshots/screenshot2299.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screnshots/screenshot2418.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +60,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -67,18 +71,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Olga/QA12_Olga_PhoneBook/QA12_Olga_PhoneBook&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Olga/GitHub/CVBank_Haifa_Olga",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
-  <component name="RunManager" selected="Gradle.TestCalender (1)">
+}]]></component>
+  <component name="RunManager" selected="Gradle.TestCalender.fillStudentRegistrationForm (1)">
     <configuration name="TestAlerts (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -125,7 +130,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestCalender.fillStudentRegistrationForm" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestCalender.fillStudentRegistrationForm (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -173,8 +178,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestCalender.fillStudentRegistrationForm (1)" />
         <item itemvalue="Gradle.TestCalender (1)" />
-        <item itemvalue="Gradle.TestCalender.fillStudentRegistrationForm" />
         <item itemvalue="Gradle.TestAlerts (1)" />
         <item itemvalue="Gradle.TestCalender.practiceForm" />
       </list>
@@ -201,5 +206,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
 </project>

@@ -1,12 +1,14 @@
 package manager;
 
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import com.google.common.io.Files;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.events.AbstractWebDriverEventListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.io.File;
+import java.io.IOException;
 
 public class MyListener extends AbstractWebDriverEventListener {
 
@@ -36,9 +38,16 @@ public class MyListener extends AbstractWebDriverEventListener {
         logger.info(String.valueOf (throwable.fillInStackTrace()));
 
         int i = (int)(System.currentTimeMillis())/1000%3600;
-        String screenshotName = "C:/Users/Olga/DemoQA_12_Olga/DemoQA_12_Olga/src/test/screnshots/screenshot"+i+".png";
-        HelperBase helper = new HelperBase(driver);
-        helper.makeScreenShot(screenshotName);
+//        String screenshotName = "C:/Users/Olga/DemoQA_12_Olga/DemoQA_12_Olga/src/test/screnshots/screenshot"+i+".png";
+//        HelperBase helper = new HelperBase(driver);
+//        helper.makeScreenShot(screenshotName);
+        File screenshot = new File("C:/Users/Olga/DemoQA_12_Olga/DemoQA_12_Olga/src/test/screnshots/screenshot"+i+".png");
+        File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        try {
+            Files.copy(file,screenshot);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
 
     }
 }

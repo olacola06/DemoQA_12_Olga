@@ -6,6 +6,8 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class HelperBase {
     WebDriver wd;
@@ -55,5 +57,10 @@ public class HelperBase {
             e.printStackTrace();
         }
 
+    }
+    public void switchWindows(){
+        List<String> tabs = new ArrayList<>(wd.getWindowHandles());
+        wd.switchTo().window(tabs.get(1)).close();
+        wd.switchTo().window(tabs.get(0));
     }
 }

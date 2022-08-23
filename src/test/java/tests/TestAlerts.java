@@ -17,6 +17,5 @@ public class TestAlerts extends Base {
         app.alert().alertButton2();
         app.alert().alertButton3();
         app.alert().alertButton4();
-
     }
 }

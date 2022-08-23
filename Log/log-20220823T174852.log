@@ -1,0 +1,27 @@
+17:48:52 INFO  manager.ApplicationManager - All tests start in Chrome
+17:49:22 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[text()='Forms']/ancestor::div[3]
+17:49:22 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Forms']/ancestor::div[3] was found
+17:49:23 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div.element-list.collapse.show
+17:49:23 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.element-list.collapse.show was found
+17:49:23 INFO  tests.Base - Starts test named:--> fillStudentRegistrationForm
+17:49:23 INFO  manager.MyListener - Start to find element with locator-->By.id: firstName
+17:49:23 INFO  manager.MyListener - Element with locator-->By.id: firstName was found
+17:49:24 INFO  manager.MyListener - Start to find element with locator-->By.id: lastName
+17:49:24 INFO  manager.MyListener - Element with locator-->By.id: lastName was found
+17:49:24 INFO  manager.MyListener - Start to find element with locator-->By.id: userEmail
+17:49:24 INFO  manager.MyListener - Element with locator-->By.id: userEmail was found
+17:49:24 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //label[@for='gender-radio-2']
+17:49:24 INFO  manager.MyListener - Element with locator-->By.xpath: //label[@for='gender-radio-2'] was found
+17:49:24 INFO  manager.MyListener - Start to find element with locator-->By.id: userNumber
+17:49:25 INFO  manager.MyListener - Element with locator-->By.id: userNumber was found
+17:49:25 INFO  manager.MyListener - Start to find element with locator-->By.id: dateOfBirthInput
+17:49:25 INFO  manager.MyListener - Element with locator-->By.id: dateOfBirthInput was found
+17:49:26 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: .react-datepicker__year-select
+17:49:26 INFO  manager.MyListener - Element with locator-->By.cssSelector: .react-datepicker__year-select was found
+17:49:26 INFO  manager.MyListener - Start to find element with locator-->By.xpath: .//option[@value = "2005"]
+17:49:26 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "2005"] was found
+17:49:26 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: .react-datepicker__month-select
+17:49:26 INFO  manager.MyListener - Element with locator-->By.cssSelector: .react-datepicker__month-select was found
+17:49:26 INFO  manager.MyListener - Start to find element with locator-->By.xpath: .//option[normalize-space(.) = "OCTOBER"]
+17:49:31 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[normalize-space(.) = "OCTOBER"] was found
+17:49:31 INFO  tests.Base - Finished test named:--> fillStudentRegistrationForm
