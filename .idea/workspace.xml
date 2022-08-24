@@ -5,19 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e28e6dcb-f0cb-4262-9176-3fe09196cc9e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/DemoQA_12_Olga.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220823T112514.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220823T171731.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220823T171951.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220823T172643.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220823T174702.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220823T174852.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220823T182944.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220823T183550.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220823T184001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220823T184309.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperCalender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperCalender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/manager/MyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/MyListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestAlerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestAlerts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestCalender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestCalender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/screnshots/screenshot2094.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/screnshots/screenshot2299.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/screnshots/screenshot2418.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +78,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Olga/GitHub/CVBank_Haifa_Olga",
+    "last_opened_file_path": "C:/Users/Olga/GitHub/DemoQA_12_Olga",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",

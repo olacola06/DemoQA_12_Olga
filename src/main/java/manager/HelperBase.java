@@ -63,4 +63,10 @@ public class HelperBase {
         wd.switchTo().window(tabs.get(1)).close();
         wd.switchTo().window(tabs.get(0));
     }
+
+    public void hideFooter() {
+        JavascriptExecutor js = (JavascriptExecutor) wd;
+        js.executeScript("document.querySelector('footer').style.display='none'");
+
+    }
 }

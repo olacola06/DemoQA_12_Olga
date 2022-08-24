@@ -43,36 +43,45 @@ public class HelperCalender extends HelperBase {
         LocalDate birthDate = LocalDate.parse(dateOfBirth, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
         System.out.println(birthDate.toString());
         String yearValue = String.valueOf(birthDate.getYear());
-        String monthValue = String.valueOf(birthDate.getMonth());
         String day = String.valueOf(birthDate.getDayOfMonth());
         new Select(wd.findElement(By.cssSelector(".react-datepicker__year-select")))
                 .selectByValue(yearValue);
         new Select(wd.findElement(By.cssSelector(".react-datepicker__month-select")))
-                .selectByValue("" + (birthDate.getMonthValue()-1));
+                 .selectByValue("" + (birthDate.getMonthValue()-1));
         new Select(wd.findElement(By.cssSelector("div.react-datepicker__month")))
-                .selectByVisibleText(day);
+                .selectByVisibleText("//div[.='"+day+"']");
+
     }
 
 
     private void chooseGender(String gender) {
+        if(gender == "Male"){
+            click(By.xpath("//label[@for='gender-radio-1']"));
+        }
+        else if(gender == "Female"){
+            click(By.xpath("//label[@for='gender-radio-2']"));
+        }
+        else{
+            click(By.xpath("//label[@for='gender-radio-3']"));
+        }
         //String locator = String.format("//*[@value='%s']",gender);
         //new WebDriverWait(wd,10).until(ExpectedConditions.elementToBeClickable(By.xpath(locator)));
-        int number = findNeededGenderNumber(gender);
-        String locator = String.format("//label[@for='gender-radio-%s']", number);
-        click(By.xpath(locator));
+//        int number = findNeededGenderNumber(gender);
+//        String locator = String.format("//label[@for='gender-radio-%s']", number);
+//        click(By.xpath(locator));
     }
 
-    public int findNeededGenderNumber(String gender) {
-        int i;
-        if (gender == "Male") {
-            i = 1;
-            return i;
-        } else if (gender == "Female") {
-            i = 2;
-            return i;
-        }
-        return 3;
-    }
+//    public int findNeededGenderNumber(String gender) {
+//        int i;
+//        if (gender == "Male") {
+//            i = 1;
+//            return i;
+//        } else if (gender == "Female") {
+//            i = 2;
+//            return i;
+//        }
+//        return 3;
+//    }
 
     private void selectStateAndCity(String state, String city) {
         click(By.cssSelector("div. css-tlfecz-indicatorContainer"));

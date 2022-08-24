@@ -41,7 +41,7 @@ public class MyListener extends AbstractWebDriverEventListener {
 //        String screenshotName = "C:/Users/Olga/DemoQA_12_Olga/DemoQA_12_Olga/src/test/screnshots/screenshot"+i+".png";
 //        HelperBase helper = new HelperBase(driver);
 //        helper.makeScreenShot(screenshotName);
-        File screenshot = new File("C:/Users/Olga/DemoQA_12_Olga/DemoQA_12_Olga/src/test/screnshots/screenshot"+i+".png");
+        File screenshot = new File("C:/Users/Olga/DemoQA_12_Olga/DemoQA_12_Olga/src/test/screenshots/screenshot"+i+".png");
         File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         try {
             Files.copy(file,screenshot);
