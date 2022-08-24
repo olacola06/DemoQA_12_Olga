@@ -6,8 +6,6 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 public class HelperBase {
     WebDriver wd;
@@ -58,15 +56,23 @@ public class HelperBase {
         }
 
     }
-    public void switchWindows(){
-        List<String> tabs = new ArrayList<>(wd.getWindowHandles());
-        wd.switchTo().window(tabs.get(1)).close();
-        wd.switchTo().window(tabs.get(0));
-    }
+//    public void switchWindows(){
+//        List<String> tabs = new ArrayList<>(wd.getWindowHandles());
+//        wd.switchTo().window(tabs.get(1)).close();
+//        wd.switchTo().window(tabs.get(0));
+//    }
 
     public void hideFooter() {
         JavascriptExecutor js = (JavascriptExecutor) wd;
         js.executeScript("document.querySelector('footer').style.display='none'");
 
+    }
+
+    public void hideAds() {
+       //new WebDriverWait(wd,15).until(ExpectedConditions.visibilityOf
+                //(wd.findElement(By.cssSelector("a[href='https://demoqa.com']"))));
+        JavascriptExecutor js = (JavascriptExecutor) wd;
+        js.executeScript("document.querySelector('div#adplus-anchor').style.display='none'");
+        js.executeScript("document.querySelector('#fixedban').style.display='none'");
     }
 }

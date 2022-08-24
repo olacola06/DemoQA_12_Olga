@@ -17,7 +17,7 @@ public class Student {
     String gender;
     String mobile;
     String dateOfBirth;
-    String subjects;
+    String subject;
     String hobbies;
     String address;
     String state;

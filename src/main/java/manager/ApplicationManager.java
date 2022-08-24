@@ -1,7 +1,6 @@
 package manager;
 
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.BrowserType;
@@ -25,9 +24,10 @@ public class ApplicationManager {
     public void start() {
         if (browser.equals(BrowserType.CHROME)) {
             logger.info("All tests start in Chrome");
-            ChromeOptions options = new ChromeOptions();
-            options.addArguments("load-extension=C://Tools/4.46.1_0");
-            wd = new EventFiringWebDriver(new ChromeDriver(options));
+//            ChromeOptions options = new ChromeOptions();
+//            options.addArguments("load-extension=C://Tools/4.46.1_0");
+//            wd = new EventFiringWebDriver(new ChromeDriver(options));
+            wd = new EventFiringWebDriver(new ChromeDriver());
         }
         else if (browser.equals(BrowserType.EDGE)){
             logger.info("All tests start in Edge");

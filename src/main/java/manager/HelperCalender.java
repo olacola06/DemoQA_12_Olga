@@ -5,7 +5,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -28,6 +27,7 @@ public class HelperCalender extends HelperBase {
         chooseGender(s.getGender());
         type(By.id("userNumber"), s.getMobile());
         selectDateOfBirth(s.getDateOfBirth());
+        type(By.cssSelector("input#subjectsInput"),s.getSubject());
         selectText(By.cssSelector("div.col-md-3 col-sm-12"), s.getHobbies());
         type(By.id("currentAddress"), s.getAddress());
         selectValue(By.cssSelector("div. css-tlfecz-indicatorContainer"), s.getState());
@@ -44,12 +44,11 @@ public class HelperCalender extends HelperBase {
         System.out.println(birthDate.toString());
         String yearValue = String.valueOf(birthDate.getYear());
         String day = String.valueOf(birthDate.getDayOfMonth());
-        new Select(wd.findElement(By.cssSelector(".react-datepicker__year-select")))
-                .selectByValue(yearValue);
-        new Select(wd.findElement(By.cssSelector(".react-datepicker__month-select")))
-                 .selectByValue("" + (birthDate.getMonthValue()-1));
-        new Select(wd.findElement(By.cssSelector("div.react-datepicker__month")))
-                .selectByVisibleText("//div[.='"+day+"']");
+        selectValue((By.cssSelector(".react-datepicker__year-select")),yearValue);
+        selectValue((By.cssSelector(".react-datepicker__month-select")),"" + (birthDate.getMonthValue()-1));
+        //new Select(wd.findElement(By.cssSelector(".react-datepicker__month-select")))
+                // .selectByValue("" + (birthDate.getMonthValue()-1));
+        click(By.xpath("//div[.='"+day+"']"));
 
     }
 
