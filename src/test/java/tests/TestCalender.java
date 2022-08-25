@@ -17,8 +17,8 @@ public class TestCalender extends Base {
     @Test
     public void fillStudentRegistrationForm(){
         Student student = Student.builder().firstName("Olga").lastName("Mar").email("Ola@mail.ru").gender("Female")
-                .mobile("123456789").dateOfBirth("17/10/2005").subject("First course student").hobbies("Sport")
-                .address("Herzel 3, Tel Aviv").state("Naryana").city("Karnal").build();
+                .mobile("123456789").dateOfBirth("17/10/2005").subject("Math, History, Chemistry")//subject("First course student")//
+                .hobbies("Sports, Music").address("Herzel 3, Tel Aviv").state("Naryana").city("Karnal").build();
 
         app.calender().fillRegistForm(student);
         app.calender().submit();

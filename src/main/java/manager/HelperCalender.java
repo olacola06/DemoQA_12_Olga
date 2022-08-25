@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.List;
 
 public class HelperCalender extends HelperBase {
 
@@ -27,14 +28,36 @@ public class HelperCalender extends HelperBase {
         chooseGender(s.getGender());
         type(By.id("userNumber"), s.getMobile());
         selectDateOfBirth(s.getDateOfBirth());
-        type(By.cssSelector("input#subjectsInput"),s.getSubject());
-        selectText(By.cssSelector("div.col-md-3 col-sm-12"), s.getHobbies());
+        //type(By.cssSelector("input#subjectsInput"),s.getSubject());
+        enterSubject(s.getSubject());
+        chooseHobbies(s.getHobbies());
         type(By.id("currentAddress"), s.getAddress());
         selectValue(By.cssSelector("div. css-tlfecz-indicatorContainer"), s.getState());
         selectValue(By.cssSelector("div. css-1hwfws3"), s.getCity());
         //selectStateAndCity(s.getState(),s.getCity());
     }
 
+    private void enterSubject(String subject) {
+        String[]all = subject.split(",");
+        for(String sub:all){
+            wd.findElement(By.id("subjectsInput")).sendKeys(sub);
+            wd.findElement(By.id("subjectsInput")).sendKeys(Keys.ENTER);
+        }
+    }
+
+    private void chooseHobbies(String hobbies) {
+        String[] all = hobbies.split(",");
+        for (String hobby : all) {
+            switch (hobby) {
+                case ("Sports"):click(By.xpath("//label[@for='hobbies-checkbox-1']"));
+                    break;
+                case ("Reading"):click(By.xpath("//label[@for='hobbies-checkbox-2']"));
+                    break;
+                case ("Music"):click(By.xpath("//label[@for='hobbies-checkbox-3']"));
+                    break;
+            }
+        }
+    }
     private void selectDateOfBirth(String dateOfBirth) { //31/03/2005
         //String [] birthDate  = dateOfBirth.split("/");
         WebElement el = wd.findElement(By.id("dateOfBirthInput"));
@@ -43,18 +66,24 @@ public class HelperCalender extends HelperBase {
         LocalDate birthDate = LocalDate.parse(dateOfBirth, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
         System.out.println(birthDate.toString());
         String yearValue = String.valueOf(birthDate.getYear());
-        String day = String.valueOf(birthDate.getDayOfMonth());
+        int day = birthDate.getDayOfMonth();
         selectValue((By.cssSelector(".react-datepicker__year-select")),yearValue);
         selectValue((By.cssSelector(".react-datepicker__month-select")),"" + (birthDate.getMonthValue()-1));
         //new Select(wd.findElement(By.cssSelector(".react-datepicker__month-select")))
                 // .selectByValue("" + (birthDate.getMonthValue()-1));
-        click(By.xpath("//div[.='"+day+"']"));
+        chooseNeededDay(day);
+     }
 
+    private void chooseNeededDay(int day) {
+        List<WebElement> list = wd.findElements(By.xpath("//div[.='" + day + "']"));
+        if (list.size() > 1 && day>15) {
+        list.get(1).click();
+            } else {
+                list.get(0).click();
+            }
     }
-
-
-    private void chooseGender(String gender) {
-        if(gender == "Male"){
+     private void chooseGender(String gender) {
+        if(gender.equals("Male")){
             click(By.xpath("//label[@for='gender-radio-1']"));
         }
         else if(gender == "Female"){
@@ -69,6 +98,7 @@ public class HelperCalender extends HelperBase {
 //        String locator = String.format("//label[@for='gender-radio-%s']", number);
 //        click(By.xpath(locator));
     }
+
 
 //    public int findNeededGenderNumber(String gender) {
 //        int i;

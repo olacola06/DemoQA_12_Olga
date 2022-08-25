@@ -6,19 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="e28e6dcb-f0cb-4262-9176-3fe09196cc9e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220824T100343.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220824T101152.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220824T101452.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220824T101629.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220824T101849.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220824T102417.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220824T102706.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220824T180604.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220824T181223.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log-20220824T182602.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperCalender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperCalender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/MyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/MyListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestCalender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestCalender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screenshot-1949.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screenshot-2765.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screenshot-3147.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,18 +67,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Olga/GitHub/DemoQA_12_Olga",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Olga/GitHub/DemoQA_12_Olga&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Gradle.TestCalender.fillStudentRegistrationForm (1)">
     <configuration name="TestAlerts (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
