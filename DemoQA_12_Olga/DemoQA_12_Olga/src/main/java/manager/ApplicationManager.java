@@ -18,9 +18,11 @@ public class ApplicationManager {
     public ApplicationManager(String browser) {
         this.browser = browser;
     }
+
     HelperAlerts alert;
     HelperCalender calender;
     SelectHelper selector;
+    Stamm stam;
 
     public void start() {
         if (browser.equals(BrowserType.CHROME)) {
@@ -40,22 +42,32 @@ public class ApplicationManager {
 
         wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        wd.navigate().to("https://demoqa.com/");
+        //wd.navigate().to("https://demoqa.com/");
+        wd.navigate().to("https://networx.atara2.networx.link/login");
         alert = new HelperAlerts(wd);
         calender = new HelperCalender(wd);
         selector = new SelectHelper(wd);
+        stam = new Stamm(wd);
     }
-        public HelperAlerts alert(){
-            return alert;
-        }
-        public HelperCalender calender() {
-            return calender;
-        }
-        public void quit() {
-            wd.quit();
-        }
-        public SelectHelper selector(){
-              return selector;
-        }
+
+    public HelperAlerts alert() {
+        return alert;
+    }
+
+    public HelperCalender calender() {
+        return calender;
+    }
+
+    public SelectHelper selector() {
+        return selector;
+    }
+
+    public Stamm stam() {
+        return stam;
+    }
+
+    public void quit() {
+        wd.quit();
+    }
 }
 

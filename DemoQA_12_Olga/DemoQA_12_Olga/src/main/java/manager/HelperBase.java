@@ -22,6 +22,7 @@ public class HelperBase {
         e.click();
         e.clear();
         e.sendKeys(message);
+
     }
     public void selectValue(By locator, String option){
         new Select(wd.findElement(locator)).selectByValue(option);
@@ -84,5 +85,4 @@ public class HelperBase {
         JavascriptExecutor js = (JavascriptExecutor) wd;
         js.executeScript("window.scrollBy(" + x + "," + y + ")");
     }
-
 }

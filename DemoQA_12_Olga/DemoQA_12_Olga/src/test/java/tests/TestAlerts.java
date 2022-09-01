@@ -18,4 +18,11 @@ public class TestAlerts extends Base {
         app.alert().alertButton3();
         app.alert().alertButton4();
     }
+
+    @Test
+    public void testTask(){
+
+    }
+
 }
+
