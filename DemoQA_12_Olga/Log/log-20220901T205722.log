@@ -1,0 +1,16 @@
+20:57:23 INFO  manager.ApplicationManager - All tests start in Chrome
+20:57:36 INFO  tests.Base - Starts test named:--> testo
+20:57:36 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: input[name='username']
+20:57:36 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[name='username'] was found
+20:57:36 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: input[name='password']
+20:57:36 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[name='password'] was found
+20:57:36 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: input[name='login']
+20:57:36 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[name='login'] was found
+20:57:42 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: a[href='/my_plans.php']
+20:57:42 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='/my_plans.php'] was found
+20:57:44 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //li[@data-href='/pbl/edit_info.php?id=501349']/a
+20:57:44 INFO  manager.MyListener - Element with locator-->By.xpath: //li[@data-href='/pbl/edit_info.php?id=501349']/a was found
+20:57:45 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='lead-name']
+20:57:45 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='lead-name'] was found
+20:57:45 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='selected-categories-list']
+20:57:45 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='selected-categories-list'] was found

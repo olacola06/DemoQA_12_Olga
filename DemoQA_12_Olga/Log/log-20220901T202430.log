@@ -1,0 +1,880 @@
+20:24:30 INFO  manager.ApplicationManager - All tests start in Chrome
+20:24:40 INFO  tests.Base - Starts test named:--> testo
+20:24:40 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: input[name='username']
+20:24:40 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[name='username'] was found
+20:24:40 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: input[name='password']
+20:24:40 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[name='password'] was found
+20:24:41 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: input[name='login']
+20:24:41 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[name='login'] was found
+20:24:48 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: a[href='/my_plans.php']
+20:24:48 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='/my_plans.php'] was found
+20:25:02 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //li[@data-href='/pbl/edit_info.php?id=501349']/a
+20:25:02 INFO  manager.MyListener - Element with locator-->By.xpath: //li[@data-href='/pbl/edit_info.php?id=501349']/a was found
+20:25:06 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='lead-name']
+20:25:06 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='lead-name'] was found
+20:25:06 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='selected-categories-list']
+20:25:06 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='selected-categories-list'] was found
+20:25:06 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:06 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:06 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:06 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:06 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:06 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:06 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:06 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:07 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:07 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:07 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:07 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:07 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:07 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:07 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:07 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:07 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:07 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:07 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:07 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:07 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:07 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:07 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:07 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:07 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:07 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:07 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:07 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:07 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:07 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:07 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:07 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:07 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:07 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:07 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:07 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:07 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:07 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:07 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:07 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:07 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:07 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:07 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:07 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:07 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:07 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:07 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:07 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:07 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:08 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:08 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:08 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:08 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:08 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:08 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:08 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:08 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:08 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:08 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:08 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:08 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:08 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:08 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:08 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:08 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:08 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:08 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:08 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:08 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:08 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:08 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:08 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:08 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:08 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:08 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:08 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:08 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:08 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:08 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:08 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:08 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:08 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:08 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:08 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:08 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:08 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:08 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:08 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:08 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:08 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:09 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:09 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:09 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:09 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:09 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:09 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:09 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:09 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:09 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:09 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:09 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:09 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:09 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:09 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:09 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:09 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:09 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:09 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:09 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:09 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:09 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:09 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:09 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:09 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:09 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:09 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:09 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:09 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:09 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:09 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:09 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:09 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:09 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:09 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:09 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:09 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:09 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:09 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:09 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:09 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:10 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:10 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:10 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:10 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:10 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:10 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:10 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:10 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:10 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:10 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:10 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:10 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:10 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:10 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:10 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:10 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:10 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:10 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:10 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:10 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:10 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:10 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:10 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:10 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:10 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:10 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:10 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:10 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:10 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:10 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:10 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:10 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:10 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:10 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:10 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:10 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:10 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:10 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:10 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:10 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:11 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:11 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:11 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:11 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:11 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:11 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:11 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:11 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:11 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:11 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:11 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:11 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:11 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:11 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:11 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:11 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:11 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:11 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:11 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:11 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:11 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:11 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:11 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:11 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:11 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:11 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:11 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:11 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:11 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:11 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:11 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:11 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:11 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:11 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:11 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:11 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:11 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:11 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:11 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:11 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:12 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:12 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:12 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:12 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:12 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:12 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:12 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:12 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:12 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:12 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:12 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:12 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:12 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:12 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:12 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:12 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:12 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:12 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:12 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:12 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:12 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:12 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:12 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:12 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:12 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:12 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:12 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:12 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:12 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:12 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:12 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:12 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:12 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:12 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:12 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:12 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:12 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:12 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:12 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:12 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:13 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:13 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:13 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:13 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:13 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:13 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:13 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:13 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:13 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:13 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:13 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:13 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:13 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:13 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:13 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:13 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:13 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:13 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:13 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:13 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:13 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:13 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:13 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:13 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:13 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:13 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:13 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:13 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:13 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:13 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:13 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:13 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:13 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:13 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:13 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:13 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:13 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:13 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:13 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:13 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:13 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:13 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:14 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:14 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:14 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:14 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:14 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:14 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:14 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:14 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:14 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:14 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:14 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:14 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:14 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:14 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:14 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:14 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:14 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:14 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:14 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:14 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:14 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:14 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:14 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:14 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:14 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:14 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:14 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:14 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:14 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:14 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:14 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:14 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:14 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:14 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:14 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:14 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:14 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:14 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:14 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:14 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:14 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:15 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:15 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:15 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:15 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:15 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:15 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:15 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:15 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:15 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:15 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:15 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:15 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:15 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:15 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:15 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:15 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:15 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:15 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:15 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:15 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:15 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:15 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:15 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:15 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:15 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:15 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:15 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:15 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:15 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:15 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:15 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:15 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:15 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:15 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:15 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:15 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:15 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:15 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:15 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:16 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:16 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:16 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:16 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:16 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:16 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:16 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:16 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:16 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:16 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:16 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:16 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:16 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:16 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:16 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:16 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:16 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:16 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:16 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:16 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:16 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:16 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:17 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:17 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:17 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:17 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:17 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:17 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:17 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:17 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:17 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:17 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:17 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:17 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:17 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:17 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:17 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:17 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:17 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:17 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:17 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:17 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:17 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:17 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:17 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:17 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:17 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:17 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:17 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:17 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:17 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:17 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:17 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:17 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:17 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:18 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:18 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:18 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:18 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:18 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:18 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:18 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:18 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:18 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:18 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:18 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:18 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:18 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:18 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:18 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:18 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:18 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:18 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:18 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:18 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:18 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:18 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:18 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:18 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:18 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:18 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:18 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:18 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:18 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:18 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:19 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:19 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:19 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:19 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:19 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:19 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:19 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:19 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:19 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:19 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:19 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:19 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:19 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:19 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:19 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:19 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:19 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:19 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:19 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:19 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:19 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:19 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:19 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:19 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:19 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:19 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:19 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:19 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:19 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:19 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:19 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:19 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:19 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:19 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:19 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:19 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:19 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:19 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:20 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:20 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:20 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:20 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:20 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:20 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:20 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:20 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:20 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:20 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:20 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:20 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:20 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:20 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:20 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:20 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:20 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:20 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:20 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:20 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:20 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:20 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:20 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:20 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:20 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:20 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:20 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:20 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:20 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:20 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:20 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:21 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:21 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:21 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:21 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:21 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:21 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:21 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:21 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:21 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:21 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:21 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:21 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:21 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:21 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:21 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:21 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:21 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:21 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:21 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:21 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:21 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:21 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:21 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:21 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:21 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:21 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:21 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:21 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:21 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:21 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:21 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:21 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:21 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:21 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:21 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:22 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:22 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:22 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:22 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:22 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:22 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:22 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:22 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:22 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:22 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:22 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:22 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:22 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:22 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:22 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:22 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:22 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:22 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:22 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:22 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:22 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:22 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:22 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:22 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:22 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:22 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:22 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:22 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:22 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:22 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:22 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:23 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:23 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:23 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:23 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:23 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:23 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:23 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:23 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:23 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:23 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:23 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:23 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:23 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:23 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:23 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:23 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:23 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:23 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:23 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:23 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:23 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:23 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:23 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:23 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:23 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:23 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:23 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:23 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:23 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:23 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:23 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:23 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:23 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:23 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:23 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:23 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:23 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:24 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:24 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:24 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:24 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:24 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:24 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:24 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:24 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:24 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:24 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:24 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:24 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:24 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:24 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:24 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:24 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:24 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:24 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:24 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:24 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:24 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:24 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:24 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:24 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:24 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:24 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:24 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:24 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:24 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:24 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:24 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:24 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:24 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:25 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:25 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:25 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:25 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:25 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:25 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:25 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:25 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:25 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:25 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:25 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:25 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:25 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:25 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:25 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:25 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:25 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:25 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:25 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:25 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:25 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:25 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:25 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:25 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:25 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:25 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:25 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:25 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:25 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:25 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:25 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:25 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:25 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:25 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:25 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:25 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:26 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:26 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:26 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:26 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:26 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:26 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:26 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:26 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:26 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:26 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:26 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:26 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:26 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:26 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:26 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:26 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:26 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:26 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:26 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:26 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:26 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:26 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:26 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:26 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:26 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:26 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:26 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:26 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:26 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:26 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:26 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:26 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:26 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:26 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:26 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:27 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:27 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:27 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:27 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:27 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:27 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:27 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:27 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:27 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:27 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:27 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:27 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:27 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:27 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:27 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:27 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:27 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:27 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:27 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:27 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:27 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:27 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:27 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:27 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:27 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:27 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:27 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:27 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:27 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:27 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:27 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:27 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:28 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:28 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:28 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:28 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:28 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:28 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:28 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:28 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:28 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:28 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:28 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:28 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:28 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:28 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:28 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:28 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:28 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:28 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:28 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:28 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:28 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:28 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:28 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:28 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:28 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:28 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:28 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:28 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:28 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:28 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:28 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:28 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:28 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:29 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:29 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:29 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:29 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:29 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:29 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:29 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:29 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:29 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:29 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:29 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:29 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:29 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:29 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:29 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:29 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:29 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:29 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:29 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:29 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:29 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:29 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:29 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:29 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:29 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:29 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:29 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:29 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:29 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:29 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:29 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:29 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:29 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:29 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:29 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:29 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:29 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:29 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:29 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:29 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:30 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:30 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:30 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:30 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:30 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:30 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:30 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:30 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:30 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:30 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:30 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:30 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:30 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:30 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:30 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:30 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:30 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:30 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:30 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:30 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:30 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:30 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found
+20:25:30 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1)
+20:25:30 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) was found
+20:25:30 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2)
+20:25:30 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) was found

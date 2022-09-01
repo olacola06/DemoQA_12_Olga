@@ -1,0 +1,21 @@
+21:01:22 INFO  manager.ApplicationManager - All tests start in Chrome
+21:01:33 INFO  tests.Base - Starts test named:--> testo
+21:01:33 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: input[name='username']
+21:01:33 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[name='username'] was found
+21:01:33 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: input[name='password']
+21:01:33 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[name='password'] was found
+21:01:33 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: input[name='login']
+21:01:33 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[name='login'] was found
+21:01:45 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: a[href='/my_plans.php']
+21:01:45 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='/my_plans.php'] was found
+21:01:50 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //li[@data-href='/pbl/edit_info.php?id=501349']/a
+21:01:50 INFO  manager.MyListener - Element with locator-->By.xpath: //li[@data-href='/pbl/edit_info.php?id=501349']/a was found
+21:01:56 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='lead-name']
+21:01:56 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='lead-name'] was found
+21:01:56 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='selected-categories-list']
+21:01:56 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='selected-categories-list'] was found
+21:01:56 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) input
+21:01:56 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(1) input was found
+21:01:56 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) input
+21:01:56 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='suggested-categories-list'] div[class='category-item ']:nth-child(2) input was found
+21:01:56 INFO  tests.Base - Finished test named:--> testo
