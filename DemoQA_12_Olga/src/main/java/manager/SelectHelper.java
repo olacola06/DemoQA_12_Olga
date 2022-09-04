@@ -1,12 +1,14 @@
 package manager;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
-public class SelectHelper extends HelperBase{
+import java.security.Key;
 
-    public SelectHelper(WebDriver driver){
+public class SelectHelper extends HelperBase {
+
+    public SelectHelper(WebDriver driver) {
         super(driver);
     }
 
@@ -19,9 +21,56 @@ public class SelectHelper extends HelperBase{
     }
 
     public void firstSelect(String option) {
-        click(By.cssSelector("div[id='selectMenuContainer'] div.row:nth-child(2) div.css-1wy0on6"));
-        String locator = String.format("//*[.='$s']",option);
-        click(By.xpath(locator));
-        Assert.assertTrue(wd.findElement(By.cssSelector(". css-1uccc91-singleValue")).getText().contains(option));
+        wd.findElement(By.cssSelector("div[id='selectMenuContainer'] div.row:nth-child(2) div.css-1wy0on6")).click();
+        //wd.findElement(By.id("withOptGroup")).click();
+        String locator = String.format("//*[.='%s']", option);
+        wd.findElement(By.xpath(locator)).click();
+        Assert.assertTrue(wd.findElement(By.cssSelector("div[class=' css-1uccc91-singleValue']")).getText().contains(option));
+
+    }
+
+    public void selectOne(String title) {
+        //String locator = String.format("//*[.='%s']",title);
+        WebElement el = wd.findElement(By.cssSelector("div[id='selectOne']"));
+        el.click();
+        // wd.findElement(By.xpath(locator)).click();
+        switch(title){         //with use of setTimeout(()=>console.log(document.querySelector("div[id='selectOne']").innerHTML),10000)
+            case "Dr.":wd.findElement(By.id("react-select-3-option-0-0")).click();
+            break;
+            case "Mr.":wd.findElement(By.id("react-select-3-option-0-1")).click();
+                break;
+            case "Mrs.":wd.findElement(By.id("react-select-3-option-0-2")).click();
+                break;
+            case "Ms.":wd.findElement(By.id("react-select-3-option-0-3")).click();
+                break;
+            case "Prof." :wd.findElement(By.id("react-select-3-option-0-4")).click();
+                break;
+            case "Other":wd.findElement(By.id("react-select-3-option-0-5")).click();
+                break;
+        }
+
+        Assert.assertTrue(el.getText().contains(title));
+    }
+
+    public void chooseColor(String color) {
+        selectText(By.cssSelector("select[id='oldSelectMenu']"),color);
+        WebElement e = wd.findElement(By.cssSelector("select[id='oldSelectMenu']"));
+        Assert.assertTrue(e.getText().contains(color));
+    }
+
+    public void multiselectColors(String color) {
+        String[] colors = color.split(",");
+        wd.findElement(By.xpath("(//div[@class=' css-2b097c-container'])[3]")).click();
+        pause(2000);
+        for(int i= 0; i<colors.length; i++) {
+            String locator = String.format("//*[.='%s']", colors[i]);
+            wd.findElement(By.xpath(locator)).click();
+            pause(2000);
+            Assert.assertTrue(wd.findElement
+                    (By.xpath("(//div[@class=' css-2b097c-container'])[3]")).getText().contains(color));
+        }
+    }
+
+    public void selectMultiCar(String s) {
     }
 }
