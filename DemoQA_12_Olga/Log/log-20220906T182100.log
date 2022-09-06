@@ -1,0 +1,15 @@
+18:21:01 INFO  manager.ApplicationManager - All tests start in Chrome
+18:22:01 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //h5[.='Widgets']
+18:22:01 INFO  manager.MyListener - Element with locator-->By.xpath: //h5[.='Widgets'] was found
+18:22:02 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //li[.='Select Menu']
+18:22:03 INFO  manager.MyListener - Element with locator-->By.xpath: //li[.='Select Menu'] was found
+18:22:04 INFO  tests.Base - Starts test named:--> testStandartMultiSelect
+18:22:04 INFO  manager.MyListener - Start to find element with locator-->By.id: cars
+18:22:04 INFO  manager.MyListener - Element with locator-->By.id: cars was found
+18:22:05 INFO  manager.MyListener - Start to find element with locator-->By.xpath: .//option[@value = "volvo"]
+18:22:05 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "volvo"] was found
+18:22:06 INFO  manager.MyListener - Start to find element with locator-->By.xpath: .//option[@value = "volvo"]
+18:22:06 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "volvo"] was found
+18:22:06 INFO  manager.MyListener - Start to find element with locator-->By.xpath: .//option[@value = "opel"]
+18:22:06 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "opel"] was found
+18:22:08 INFO  tests.Base - Finished test named:--> testStandartMultiSelect

@@ -41,7 +41,7 @@ public class SelectTests extends Base{
     }
     @Test
     public void multiselectDropDownTest(){
-        app.selector().multiselectColors("Red,Green");
+        app.selector().multiselectColors("Blue,Red,Green");
     }
 
     @Test

@@ -1,0 +1,23 @@
+17:14:48 INFO  manager.ApplicationManager - All tests start in Chrome
+17:16:21 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //h5[.='Widgets']
+17:16:21 INFO  manager.MyListener - Element with locator-->By.xpath: //h5[.='Widgets'] was found
+17:16:22 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //li[.='Select Menu']
+17:16:22 INFO  manager.MyListener - Element with locator-->By.xpath: //li[.='Select Menu'] was found
+17:16:37 INFO  tests.Base - Starts test named:--> multiselectDropDownTest
+17:16:37 INFO  manager.MyListener - Start to find element with locator-->By.xpath: (//div[@class=' css-2b097c-container'])[3]
+17:16:37 INFO  manager.MyListener - Element with locator-->By.xpath: (//div[@class=' css-2b097c-container'])[3] was found
+17:16:39 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //div[.='Blue']
+17:16:40 INFO  manager.MyListener - Element with locator-->By.xpath: //div[.='Blue'] was found
+17:16:42 INFO  manager.MyListener - Start to find element with locator-->By.xpath: (//div[@class=' css-2b097c-container'])[3]
+17:16:42 INFO  manager.MyListener - Element with locator-->By.xpath: (//div[@class=' css-2b097c-container'])[3] was found
+17:16:43 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //div[.='Red']
+17:16:43 INFO  manager.MyListener - Element with locator-->By.xpath: //div[.='Red'] was found
+17:16:45 INFO  manager.MyListener - Start to find element with locator-->By.xpath: (//div[@class=' css-2b097c-container'])[3]
+17:16:45 INFO  manager.MyListener - Element with locator-->By.xpath: (//div[@class=' css-2b097c-container'])[3] was found
+17:16:46 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //div[.='Green']
+17:16:46 INFO  manager.MyListener - Element with locator-->By.xpath: //div[.='Green'] was found
+17:16:48 INFO  manager.MyListener - Start to find element with locator-->By.xpath: (//div[@class=' css-2b097c-container'])[3]
+17:16:48 INFO  manager.MyListener - Element with locator-->By.xpath: (//div[@class=' css-2b097c-container'])[3] was found
+17:16:48 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //div[.='Green']//div[@class='css-xb97g8']
+17:16:48 INFO  manager.MyListener - Element with locator-->By.xpath: //div[.='Green']//div[@class='css-xb97g8'] was found
+17:16:49 INFO  tests.Base - Finished test named:--> multiselectDropDownTest

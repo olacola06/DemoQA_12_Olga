@@ -12,6 +12,7 @@ repositories {
 dependencies {
     implementation 'org.testng:testng:7.4.0'
     implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
+    implementation 'org.apache.pdfbox:fontbox:2.0.25'
 
     compileOnly 'org.projectlombok:lombok:1.18.24'
     annotationProcessor 'org.projectlombok:lombok:1.18.24'
@@ -24,28 +25,5 @@ dependencies {
 
 test {
     useTestNG()
-    if (project.hasProperty('browser')){
-        systemProperty 'browser', "${browser}"
-    }
-}
-task reg (type: Test){
-    useTestNG(){
-        def groups = System.getProperty('groups');
-        if(groups != null){
-            includeGroups groups
-        }
-        def suite = System.getProperty('suite','')
-        if (suite.equals('smoke')){
-            suites 'src/test/resources/smoke.xml'
-        }else if (suite.equals('quick')){
-            suites 'src/test/resources/quick.xml'
-        }else if (suite.equals('singapore')) {
-            suites 'src/test/resources/singapore.xml'
-        }else
-        {suites 'src/test/resources/testng.xml'
-        }
-        if (project.hasProperty('browser')){
-            systemProperty 'browser', "${browser}"
-        }
-    }
+
 }

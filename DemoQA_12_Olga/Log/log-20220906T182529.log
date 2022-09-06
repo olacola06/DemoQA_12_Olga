@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.SelectTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-06T15:26:39" hostname="DESKTOP-KF54E9L" time="2.706">
-  <properties/>
-  <testcase name="testStandartMultiSelect" classname="tests.SelectTests" time="2.706"/>
-  <system-out><![CDATA[18:26:36 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //h5[.='Widgets']
+18:25:29 INFO  manager.ApplicationManager - All tests start in Chrome
+18:26:36 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //h5[.='Widgets']
 18:26:36 INFO  manager.MyListener - Element with locator-->By.xpath: //h5[.='Widgets'] was found
 18:26:37 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //li[.='Select Menu']
 18:26:37 INFO  manager.MyListener - Element with locator-->By.xpath: //li[.='Select Menu'] was found
@@ -16,6 +13,3 @@
 18:26:41 INFO  manager.MyListener - Start to find element with locator-->By.xpath: .//option[@value = "opel"]
 18:26:41 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "opel"] was found
 18:26:41 INFO  tests.Base - Finished test named:--> testStandartMultiSelect
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
