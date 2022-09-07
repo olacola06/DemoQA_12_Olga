@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.ActionButtonTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-07T15:11:33" hostname="DESKTOP-KF54E9L" time="4.275">
+  <properties/>
+  <testcase name="doubleClick" classname="tests.ActionButtonTests" time="4.275"/>
+  <system-out><![CDATA[18:11:31 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //h5[.='Elements']
+18:11:31 INFO  manager.MyListener - Element with locator-->By.xpath: //h5[.='Elements'] was found
+18:11:33 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //span[.='Buttons']
+18:11:33 INFO  manager.MyListener - Element with locator-->By.xpath: //span[.='Buttons'] was found
+18:11:33 INFO  tests.Base - Starts test named:--> doubleClick
+18:11:33 INFO  manager.MyListener - Start to find element with locator-->By.id: doubleClickBtn
+18:11:34 INFO  manager.MyListener - Element with locator-->By.id: doubleClickBtn was found
+18:11:36 INFO  manager.MyListener - Start to find element with locator-->By.id: doubleClickMessage
+18:11:37 INFO  manager.MyListener - Element with locator-->By.id: doubleClickMessage was found
+18:11:37 INFO  manager.MyListener - Start to find element with locator-->By.id: rightClickBtn
+18:11:37 INFO  manager.MyListener - Element with locator-->By.id: rightClickBtn was found
+18:11:37 INFO  manager.MyListener - Start to find element with locator-->By.id: rightClickMessage
+18:11:37 INFO  manager.MyListener - Element with locator-->By.id: rightClickMessage was found
+18:11:37 INFO  tests.Base - Finished test named:--> doubleClick
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
