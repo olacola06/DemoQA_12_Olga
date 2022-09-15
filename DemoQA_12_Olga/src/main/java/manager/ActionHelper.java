@@ -37,5 +37,25 @@ public class ActionHelper extends HelperBase {
     public boolean isRightClickDone() {
         return wd.findElement(By.id("rightClickMessage")).getText().equals("You have done a right click");
     }
+
+    public void dynamicClick() {
+        WebElement e = wd.findElement(By.xpath("//button[.='Click Me']"));
+        //e.click();
+        Actions action = new Actions(wd);
+        action.moveToElement(e).click().perform();
+        Assert.assertTrue(wd.findElement(By.id("dynamicClickMessage")).getText().contains("dynamic click"));
+    }
+
+    public void chooseInteractions() {
+       click(By.xpath("//h5[.='Interactions']"));
+    }
+
+    public void clickDroppable() {
+        click(By.xpath("//li[.='Droppable']"));
+    }
+
+    public void dragAndDropMe() {
+        
+    }
 }
 

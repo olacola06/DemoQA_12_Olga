@@ -15,11 +15,12 @@ public class ActionButtonTests extends Base{
 
     }
     @Test
-    public void  doubleClick(){
+    public void  clicks(){
         app.actionH().doubleClickMe();
         Assert.assertTrue(app.actionH().isDoubleClickDone());
         app.actionH().rightClick();
         Assert.assertTrue(app.actionH().isRightClickDone());
+        app.actionH().dynamicClick();
     }
 
 }
