@@ -1,0 +1,11 @@
+20:00:57 INFO  manager.ApplicationManager - All tests start in Chrome
+20:01:01 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //h5[.='Interactions']
+20:01:01 INFO  manager.MyListener - Element with locator-->By.xpath: //h5[.='Interactions'] was found
+20:01:01 INFO  tests.Base - Starts test named:--> droppable
+20:01:01 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //li[.='Droppable']
+20:01:01 INFO  manager.MyListener - Element with locator-->By.xpath: //li[.='Droppable'] was found
+20:01:02 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[id='draggable']
+20:01:02 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[id='draggable'] was found
+20:01:02 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div#simpleDropContainer div#droppable
+20:01:02 INFO  manager.MyListener - Element with locator-->By.cssSelector: div#simpleDropContainer div#droppable was found
+20:01:02 INFO  tests.Base - Finished test named:--> droppable

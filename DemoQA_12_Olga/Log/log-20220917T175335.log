@@ -1,0 +1,22 @@
+17:53:35 INFO  manager.ApplicationManager - All tests start in Chrome
+17:53:40 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //h5[.='Interactions']
+17:53:41 INFO  manager.MyListener - Element with locator-->By.xpath: //h5[.='Interactions'] was found
+17:53:41 INFO  tests.Base - Starts test named:--> droppable
+17:53:41 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //li[.='Droppable']
+17:53:41 INFO  manager.MyListener - Element with locator-->By.xpath: //li[.='Droppable'] was found
+17:53:42 INFO  manager.MyListener - Something went wrong-->https://demoqa.com/interaction
+17:53:42 INFO  manager.MyListener - element click intercepted: Element <li class="btn btn-light " id="item-3">...</li> is not clickable at point (200, 676). Other element would receive the click: <footer>...</footer>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b6b0013599304c5a50ebf34356277792
+17:53:42 INFO  manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <li class="btn btn-light " id="item-3">...</li> is not clickable at point (200, 676). Other element would receive the click: <footer>...</footer>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b6b0013599304c5a50ebf34356277792
+17:53:42 INFO  tests.Base - Finished test named:--> droppable

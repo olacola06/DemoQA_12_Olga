@@ -1,6 +1,7 @@
 package manager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Rectangle;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -55,7 +56,27 @@ public class ActionHelper extends HelperBase {
     }
 
     public void dragAndDropMe() {
-        
+        WebElement dragMe = wd.findElement(By.cssSelector("div[id='draggable']"));
+        WebElement dropHere = wd.findElement(By.cssSelector("div#simpleDropContainer div#droppable"));
+        Actions action  = new Actions(wd);
+        //action.clickAndHold(dragMe).pause(2000).moveToElement(dropHere).release().perform();
+        action.dragAndDrop(dragMe,dropHere).perform();
+
+    }
+    public void dragAndDropMe2(){
+        WebElement dragMe = wd.findElement(By.cssSelector("div[id='draggable']"));
+        WebElement dropHere = wd.findElement(By.cssSelector("div#simpleDropContainer div#droppable"));
+        Rectangle rectDrag = dragMe.getRect();
+        Rectangle rectDrop = dropHere.getRect();
+        int xOffSet = rectDrag.getWidth();
+        int yOffSet = rectDrag.getHeight()/2;
+
+
+
+    }
+
+    public boolean isDragAndDropDone() {
+        return wd.findElement(By.xpath("//p[.='Dropped!']")).getText().contains("Dropped!");
     }
 }
 
