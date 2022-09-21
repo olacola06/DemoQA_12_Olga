@@ -2,6 +2,7 @@ package tests;
 
 import models.Student;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -27,5 +28,10 @@ public class TestCalender extends Base {
 
         Assert.assertTrue(app.calender().formSubmitted());
 
+    }
+    @AfterClass
+    public void postConditions(){
+        app.calender().clickSubmitForm();
+        app.calender().returnToMainPage();
     }
 }

@@ -1,0 +1,231 @@
+09:42:19 INFO  manager.ApplicationManager - All tests start in Chrome
+09:42:45 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //h5[.='Elements']
+09:42:45 INFO  manager.MyListener - Element with locator-->By.xpath: //h5[.='Elements'] was found
+09:42:47 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //span[.='Buttons']
+09:42:47 INFO  manager.MyListener - Element with locator-->By.xpath: //span[.='Buttons'] was found
+09:42:47 INFO  tests.Base - Starts test named:--> clicks
+09:42:47 INFO  manager.MyListener - Start to find element with locator-->By.id: doubleClickBtn
+09:42:48 INFO  manager.MyListener - Element with locator-->By.id: doubleClickBtn was found
+09:42:48 INFO  manager.MyListener - Start to find element with locator-->By.id: doubleClickMessage
+09:42:48 INFO  manager.MyListener - Element with locator-->By.id: doubleClickMessage was found
+09:42:48 INFO  manager.MyListener - Start to find element with locator-->By.id: rightClickBtn
+09:42:48 INFO  manager.MyListener - Element with locator-->By.id: rightClickBtn was found
+09:42:51 INFO  manager.MyListener - Start to find element with locator-->By.id: rightClickMessage
+09:42:57 INFO  manager.MyListener - Something went wrong-->https://demoqa.com/buttons
+09:42:57 INFO  manager.MyListener - no such element: Unable to locate element: {"method":"css selector","selector":"#rightClickMessage"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.119', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5f428dfdcc7242c12a3ca17c196ee1f4
+*** Element info: {Using=id, value=rightClickMessage}
+09:42:57 INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#rightClickMessage"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.119', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54377}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5f428dfdcc7242c12a3ca17c196ee1f4
+*** Element info: {Using=id, value=rightClickMessage}
+09:42:58 INFO  tests.Base - Finished test named:--> clicks
+09:42:58 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: a[href='https://demoqa.com']
+09:42:58 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='https://demoqa.com'] was found
+09:43:11 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //h5[.='Interactions']
+09:43:11 INFO  manager.MyListener - Element with locator-->By.xpath: //h5[.='Interactions'] was found
+09:43:12 INFO  tests.Base - Starts test named:--> droppable
+09:43:12 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //li[.='Droppable']
+09:43:12 INFO  manager.MyListener - Element with locator-->By.xpath: //li[.='Droppable'] was found
+09:43:12 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[id='draggable']
+09:43:12 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[id='draggable'] was found
+09:43:12 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div#simpleDropContainer div#droppable
+09:43:12 INFO  manager.MyListener - Element with locator-->By.cssSelector: div#simpleDropContainer div#droppable was found
+09:43:14 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //p[.='Dropped!']
+09:43:14 INFO  manager.MyListener - Element with locator-->By.xpath: //p[.='Dropped!'] was found
+09:43:14 INFO  tests.Base - Finished test named:--> droppable
+09:43:14 INFO  tests.Base - Starts test named:--> droppable2
+09:43:14 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //li[.='Droppable']
+09:43:14 INFO  manager.MyListener - Element with locator-->By.xpath: //li[.='Droppable'] was found
+09:43:14 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[id='draggable']
+09:43:14 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[id='draggable'] was found
+09:43:14 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div#simpleDropContainer div#droppable
+09:43:14 INFO  manager.MyListener - Element with locator-->By.cssSelector: div#simpleDropContainer div#droppable was found
+09:43:15 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //p[.='Dropped!']
+09:43:15 INFO  manager.MyListener - Element with locator-->By.xpath: //p[.='Dropped!'] was found
+09:43:15 INFO  tests.Base - Finished test named:--> droppable2
+09:43:15 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: a[href='https://demoqa.com']
+09:43:15 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='https://demoqa.com'] was found
+09:43:18 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //h5[.='Widgets']
+09:43:18 INFO  manager.MyListener - Element with locator-->By.xpath: //h5[.='Widgets'] was found
+09:43:19 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //li[.='Select Menu']
+09:43:19 INFO  manager.MyListener - Element with locator-->By.xpath: //li[.='Select Menu'] was found
+09:43:23 INFO  tests.Base - Starts test named:--> multiselectDropDownTest
+09:43:23 INFO  manager.MyListener - Start to find element with locator-->By.xpath: (//div[@class=' css-2b097c-container'])[3]
+09:43:23 INFO  manager.MyListener - Element with locator-->By.xpath: (//div[@class=' css-2b097c-container'])[3] was found
+09:43:25 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //div[.='Blue']
+09:43:25 INFO  manager.MyListener - Element with locator-->By.xpath: //div[.='Blue'] was found
+09:43:28 INFO  manager.MyListener - Start to find element with locator-->By.xpath: (//div[@class=' css-2b097c-container'])[3]
+09:43:28 INFO  manager.MyListener - Element with locator-->By.xpath: (//div[@class=' css-2b097c-container'])[3] was found
+09:43:28 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //div[.='Red']
+09:43:28 INFO  manager.MyListener - Element with locator-->By.xpath: //div[.='Red'] was found
+09:43:30 INFO  manager.MyListener - Start to find element with locator-->By.xpath: (//div[@class=' css-2b097c-container'])[3]
+09:43:30 INFO  manager.MyListener - Element with locator-->By.xpath: (//div[@class=' css-2b097c-container'])[3] was found
+09:43:30 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //div[.='Green']
+09:43:30 INFO  manager.MyListener - Element with locator-->By.xpath: //div[.='Green'] was found
+09:43:33 INFO  manager.MyListener - Start to find element with locator-->By.xpath: (//div[@class=' css-2b097c-container'])[3]
+09:43:33 INFO  manager.MyListener - Element with locator-->By.xpath: (//div[@class=' css-2b097c-container'])[3] was found
+09:43:33 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //div[.='Green']//div[@class='css-xb97g8']
+09:43:33 INFO  manager.MyListener - Element with locator-->By.xpath: //div[.='Green']//div[@class='css-xb97g8'] was found
+09:43:35 INFO  manager.MyListener - Start to find element with locator-->By.xpath: (//div[@class=' css-2b097c-container'])[3]
+09:43:36 INFO  manager.MyListener - Element with locator-->By.xpath: (//div[@class=' css-2b097c-container'])[3] was found
+09:43:36 INFO  tests.Base - Finished test named:--> multiselectDropDownTest
+09:43:36 INFO  tests.Base - Starts test named:--> oldStyleSelect
+09:43:36 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: select[id='oldSelectMenu']
+09:43:36 INFO  manager.MyListener - Element with locator-->By.cssSelector: select[id='oldSelectMenu'] was found
+09:43:36 INFO  manager.MyListener - Start to find element with locator-->By.xpath: .//option[normalize-space(.) = "Blue"]
+09:43:36 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[normalize-space(.) = "Blue"] was found
+09:43:37 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: select[id='oldSelectMenu']
+09:43:37 INFO  manager.MyListener - Element with locator-->By.cssSelector: select[id='oldSelectMenu'] was found
+09:43:39 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: select[id='oldSelectMenu']
+09:43:39 INFO  manager.MyListener - Element with locator-->By.cssSelector: select[id='oldSelectMenu'] was found
+09:43:39 INFO  manager.MyListener - Start to find element with locator-->By.xpath: .//option[normalize-space(.) = "Black"]
+09:43:39 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[normalize-space(.) = "Black"] was found
+09:43:39 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: select[id='oldSelectMenu']
+09:43:39 INFO  manager.MyListener - Element with locator-->By.cssSelector: select[id='oldSelectMenu'] was found
+09:43:41 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: select[id='oldSelectMenu']
+09:43:41 INFO  manager.MyListener - Element with locator-->By.cssSelector: select[id='oldSelectMenu'] was found
+09:43:41 INFO  manager.MyListener - Start to find element with locator-->By.xpath: .//option[normalize-space(.) = "Aqua"]
+09:43:41 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[normalize-space(.) = "Aqua"] was found
+09:43:41 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: select[id='oldSelectMenu']
+09:43:41 INFO  manager.MyListener - Element with locator-->By.cssSelector: select[id='oldSelectMenu'] was found
+09:43:41 INFO  tests.Base - Finished test named:--> oldStyleSelect
+09:43:41 INFO  tests.Base - Starts test named:--> selectOne
+09:43:41 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[id='selectOne']
+09:43:41 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[id='selectOne'] was found
+09:43:42 INFO  manager.MyListener - Start to find element with locator-->By.id: react-select-3-option-0-5
+09:43:42 INFO  manager.MyListener - Element with locator-->By.id: react-select-3-option-0-5 was found
+09:43:44 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[id='selectOne']
+09:43:44 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[id='selectOne'] was found
+09:43:44 INFO  manager.MyListener - Start to find element with locator-->By.id: react-select-3-option-0-1
+09:43:44 INFO  manager.MyListener - Element with locator-->By.id: react-select-3-option-0-1 was found
+09:43:46 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[id='selectOne']
+09:43:46 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[id='selectOne'] was found
+09:43:46 INFO  manager.MyListener - Start to find element with locator-->By.id: react-select-3-option-0-4
+09:43:46 INFO  manager.MyListener - Element with locator-->By.id: react-select-3-option-0-4 was found
+09:43:47 INFO  tests.Base - Finished test named:--> selectOne
+09:43:47 INFO  tests.Base - Starts test named:--> selectValue
+09:43:47 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[id='selectMenuContainer'] div.row:nth-child(2) div.css-1wy0on6
+09:43:47 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[id='selectMenuContainer'] div.row:nth-child(2) div.css-1wy0on6 was found
+09:43:47 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[.='Group 1, option 1']
+09:43:47 INFO  manager.MyListener - Element with locator-->By.xpath: //*[.='Group 1, option 1'] was found
+09:43:47 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class=' css-1uccc91-singleValue']
+09:43:47 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class=' css-1uccc91-singleValue'] was found
+09:43:49 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[id='selectMenuContainer'] div.row:nth-child(2) div.css-1wy0on6
+09:43:49 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[id='selectMenuContainer'] div.row:nth-child(2) div.css-1wy0on6 was found
+09:43:49 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[.='Group 2, option 1']
+09:43:49 INFO  manager.MyListener - Element with locator-->By.xpath: //*[.='Group 2, option 1'] was found
+09:43:49 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class=' css-1uccc91-singleValue']
+09:43:50 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class=' css-1uccc91-singleValue'] was found
+09:43:52 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[id='selectMenuContainer'] div.row:nth-child(2) div.css-1wy0on6
+09:43:52 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[id='selectMenuContainer'] div.row:nth-child(2) div.css-1wy0on6 was found
+09:43:52 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[.='A root option']
+09:43:52 INFO  manager.MyListener - Element with locator-->By.xpath: //*[.='A root option'] was found
+09:43:52 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class=' css-1uccc91-singleValue']
+09:43:52 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class=' css-1uccc91-singleValue'] was found
+09:43:52 INFO  tests.Base - Finished test named:--> selectValue
+09:43:52 INFO  tests.Base - Starts test named:--> testStandartMultiSelect
+09:43:52 INFO  manager.MyListener - Start to find element with locator-->By.id: cars
+09:43:52 INFO  manager.MyListener - Element with locator-->By.id: cars was found
+09:43:52 INFO  manager.MyListener - Start to find element with locator-->By.xpath: .//option[@value = "volvo"]
+09:43:52 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "volvo"] was found
+09:43:52 INFO  manager.MyListener - Start to find element with locator-->By.xpath: .//option[@value = "saab"]
+09:43:53 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "saab"] was found
+09:43:53 INFO  manager.MyListener - Start to find element with locator-->By.xpath: .//option[@value = "opel"]
+09:43:53 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "opel"] was found
+09:43:53 INFO  tests.Base - Finished test named:--> testStandartMultiSelect
+09:43:53 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: a[href='https://demoqa.com']
+09:43:53 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='https://demoqa.com'] was found
+09:44:13 INFO  tests.Base - Starts test named:--> alertsBtn
+09:44:13 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[text()='Alerts, Frame & Windows']/ancestor::div[3]
+09:44:13 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Alerts, Frame & Windows']/ancestor::div[3] was found
+09:44:13 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[text()='Alerts']
+09:44:14 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Alerts'] was found
+09:44:14 INFO  manager.MyListener - Start to find element with locator-->By.id: alertButton
+09:44:14 INFO  manager.MyListener - Element with locator-->By.id: alertButton was found
+09:45:50 INFO  tests.Base - Finished test named:--> alertsBtn
+09:45:50 INFO  tests.Base - Starts test named:--> testTask
+09:45:50 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[text()='Alerts, Frame & Windows']/ancestor::div[3]
+09:45:50 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Alerts, Frame & Windows']/ancestor::div[3] was found
+09:45:51 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[text()='Alerts']
+09:45:52 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Alerts'] was found
+09:45:52 INFO  tests.Base - Finished test named:--> testTask
+09:45:52 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: a[href='https://demoqa.com']
+09:45:52 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='https://demoqa.com'] was found
+09:46:00 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[text()='Forms']/ancestor::div[3]
+09:46:00 INFO  manager.MyListener - Element with locator-->By.xpath: //*[text()='Forms']/ancestor::div[3] was found
+09:46:01 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div.element-list.collapse.show
+09:46:01 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.element-list.collapse.show was found
+09:46:01 INFO  tests.Base - Starts test named:--> fillStudentRegistrationForm
+09:46:02 INFO  manager.MyListener - Start to find element with locator-->By.id: firstName
+09:46:02 INFO  manager.MyListener - Element with locator-->By.id: firstName was found
+09:46:04 INFO  manager.MyListener - Start to find element with locator-->By.id: lastName
+09:46:04 INFO  manager.MyListener - Element with locator-->By.id: lastName was found
+09:46:05 INFO  manager.MyListener - Start to find element with locator-->By.id: userEmail
+09:46:05 INFO  manager.MyListener - Element with locator-->By.id: userEmail was found
+09:46:05 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //label[@for='gender-radio-2']
+09:46:05 INFO  manager.MyListener - Element with locator-->By.xpath: //label[@for='gender-radio-2'] was found
+09:46:06 INFO  manager.MyListener - Start to find element with locator-->By.id: userNumber
+09:46:06 INFO  manager.MyListener - Element with locator-->By.id: userNumber was found
+09:46:07 INFO  manager.MyListener - Start to find element with locator-->By.id: dateOfBirthInput
+09:46:07 INFO  manager.MyListener - Element with locator-->By.id: dateOfBirthInput was found
+09:46:10 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: .react-datepicker__year-select
+09:46:10 INFO  manager.MyListener - Element with locator-->By.cssSelector: .react-datepicker__year-select was found
+09:46:10 INFO  manager.MyListener - Start to find element with locator-->By.xpath: .//option[@value = "1995"]
+09:46:10 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "1995"] was found
+09:46:10 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: .react-datepicker__month-select
+09:46:10 INFO  manager.MyListener - Element with locator-->By.cssSelector: .react-datepicker__month-select was found
+09:46:10 INFO  manager.MyListener - Start to find element with locator-->By.xpath: .//option[@value = "9"]
+09:46:10 INFO  manager.MyListener - Element with locator-->By.xpath: .//option[@value = "9"] was found
+09:46:11 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //div[.='31']
+09:46:11 INFO  manager.MyListener - Element with locator-->By.xpath: //div[.='31'] was found
+09:46:11 INFO  manager.MyListener - Start to find element with locator-->By.id: subjectsInput
+09:46:11 INFO  manager.MyListener - Element with locator-->By.id: subjectsInput was found
+09:46:12 INFO  manager.MyListener - Start to find element with locator-->By.id: subjectsInput
+09:46:12 INFO  manager.MyListener - Element with locator-->By.id: subjectsInput was found
+09:46:12 INFO  manager.MyListener - Start to find element with locator-->By.id: subjectsInput
+09:46:12 INFO  manager.MyListener - Element with locator-->By.id: subjectsInput was found
+09:46:12 INFO  manager.MyListener - Start to find element with locator-->By.id: subjectsInput
+09:46:12 INFO  manager.MyListener - Element with locator-->By.id: subjectsInput was found
+09:46:12 INFO  manager.MyListener - Start to find element with locator-->By.id: subjectsInput
+09:46:12 INFO  manager.MyListener - Element with locator-->By.id: subjectsInput was found
+09:46:13 INFO  manager.MyListener - Start to find element with locator-->By.id: subjectsInput
+09:46:13 INFO  manager.MyListener - Element with locator-->By.id: subjectsInput was found
+09:46:13 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //label[@for='hobbies-checkbox-1']
+09:46:13 INFO  manager.MyListener - Element with locator-->By.xpath: //label[@for='hobbies-checkbox-1'] was found
+09:46:13 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //label[@for='hobbies-checkbox-3']
+09:46:13 INFO  manager.MyListener - Element with locator-->By.xpath: //label[@for='hobbies-checkbox-3'] was found
+09:46:13 INFO  manager.MyListener - Start to find element with locator-->By.id: currentAddress
+09:46:13 INFO  manager.MyListener - Element with locator-->By.id: currentAddress was found
+09:46:14 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[id='state'] div[class=' css-1wy0on6']
+09:46:14 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[id='state'] div[class=' css-1wy0on6'] was found
+09:46:14 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[.='Haryana']
+09:46:14 INFO  manager.MyListener - Element with locator-->By.xpath: //*[.='Haryana'] was found
+09:46:15 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[id='city'] div[class=' css-1wy0on6']
+09:46:15 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[id='city'] div[class=' css-1wy0on6'] was found
+09:46:16 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[.='Karnal']
+09:46:16 INFO  manager.MyListener - Element with locator-->By.xpath: //*[.='Karnal'] was found
+09:46:16 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: input[id='uploadPicture']
+09:46:16 INFO  manager.MyListener - Element with locator-->By.cssSelector: input[id='uploadPicture'] was found
+09:46:16 INFO  manager.MyListener - Start to find element with locator-->By.id: submit
+09:46:16 INFO  manager.MyListener - Element with locator-->By.id: submit was found
+09:46:17 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[class='modal-header']
+09:46:17 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[class='modal-header'] was found
+09:46:18 INFO  tests.Base - Finished test named:--> fillStudentRegistrationForm
+09:46:18 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[.='Thanks for submitting the form']
+09:46:18 INFO  manager.MyListener - Element with locator-->By.xpath: //*[.='Thanks for submitting the form'] was found
+09:46:18 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //button[.='Close']
+09:46:18 INFO  manager.MyListener - Element with locator-->By.xpath: //button[.='Close'] was found
+09:46:19 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: a[href='https://demoqa.com']
+09:46:19 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='https://demoqa.com'] was found

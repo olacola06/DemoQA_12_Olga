@@ -1,0 +1,27 @@
+17:52:52 INFO  manager.ApplicationManager - All tests start in Chrome
+17:53:12 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //h5[.='Interactions']
+17:53:12 INFO  manager.MyListener - Element with locator-->By.xpath: //h5[.='Interactions'] was found
+17:53:14 INFO  tests.Base - Starts test named:--> droppableAccept
+17:53:14 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //a[.='Accept']
+17:53:20 INFO  manager.MyListener - Something went wrong-->https://demoqa.com/interaction
+17:53:20 INFO  manager.MyListener - no such element: Unable to locate element: {"method":"xpath","selector":"//a[.='Accept']"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.119', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55818}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5d25cd2ced523707a8272e0d95010348
+*** Element info: {Using=xpath, value=//a[.='Accept']}
+17:53:20 INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[.='Accept']"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KF54E9L', ip: '192.168.42.119', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55818}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5d25cd2ced523707a8272e0d95010348
+*** Element info: {Using=xpath, value=//a[.='Accept']}
+17:53:27 INFO  tests.Base - Finished test named:--> droppableAccept
+17:53:27 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: a[href='https://demoqa.com']
+17:53:27 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='https://demoqa.com'] was found

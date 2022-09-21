@@ -1,6 +1,7 @@
 package tests;
 
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -21,6 +22,10 @@ public class ActionButtonTests extends Base{
         app.actionH().rightClick();
         Assert.assertTrue(app.actionH().isRightClickDone());
         app.actionH().dynamicClick();
+    }
+    @AfterClass
+    public void postConditions(){
+        app.actionH().returnToMainPage();
     }
 
 }

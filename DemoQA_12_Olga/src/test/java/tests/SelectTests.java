@@ -1,5 +1,6 @@
 package tests;
 
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -48,6 +49,9 @@ public class SelectTests extends Base{
     public void testStandartMultiSelect(){
         app.selector().selectMultiCar("volvo,saab,opel");
     }
-
+    @AfterClass
+    public void postConditions(){
+        app.selector().returnToMainPage();
+    }
 
 }

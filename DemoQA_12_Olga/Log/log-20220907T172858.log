@@ -1,9 +1,0 @@
-17:28:59 INFO  manager.ApplicationManager - All tests start in Chrome
-17:30:13 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //h5[.='Elements']
-17:30:13 INFO  manager.MyListener - Element with locator-->By.xpath: //h5[.='Elements'] was found
-17:30:14 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //span[.='Buttons']
-17:30:14 INFO  manager.MyListener - Element with locator-->By.xpath: //span[.='Buttons'] was found
-17:30:15 INFO  tests.Base - Starts test named:--> doubleClick
-17:30:15 INFO  manager.MyListener - Start to find element with locator-->By.id: doubleClickBtn
-17:30:18 INFO  manager.MyListener - Element with locator-->By.id: doubleClickBtn was found
-17:30:19 INFO  tests.Base - Finished test named:--> doubleClick

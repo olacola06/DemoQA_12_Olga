@@ -138,8 +138,14 @@ public class HelperCalender extends HelperBase {
     }
 
     public void downloadPic() {
-        String linkName = "C:/Users/Olga/DemoQA_12_Olga/DemoQA_12_Olga/src/test/Image.jpg";
+        String linkName = "C:/Users/Olga/GitHub/DemoQA_12_Olga/DemoQA_12_Olga/src/test/Image.jpg";
         WebElement el = wd.findElement(By.cssSelector("input[id='uploadPicture']"));
         el.sendKeys(linkName);
+    }
+
+    public void clickSubmitForm() {
+        if(wd.findElement(By.xpath("//*[.='Thanks for submitting the form']")).isDisplayed()){
+            click(By.xpath("//button[.='Close']"));
+        }
     }
 }

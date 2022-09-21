@@ -85,4 +85,7 @@ public class HelperBase {
         JavascriptExecutor js = (JavascriptExecutor) wd;
         js.executeScript("window.scrollBy(" + x + "," + y + ")");
     }
+    public void returnToMainPage() {
+        wd.findElement(By.cssSelector("a[href='https://demoqa.com']")).click();
+    }
 }

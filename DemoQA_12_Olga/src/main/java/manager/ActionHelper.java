@@ -5,7 +5,11 @@ import org.openqa.selenium.Rectangle;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+
+import java.util.Objects;
 
 public class ActionHelper extends HelperBase {
     public ActionHelper(WebDriver driver){
@@ -68,15 +72,37 @@ public class ActionHelper extends HelperBase {
         WebElement dropHere = wd.findElement(By.cssSelector("div#simpleDropContainer div#droppable"));
         Rectangle rectDrag = dragMe.getRect();
         Rectangle rectDrop = dropHere.getRect();
-        int xOffSet = rectDrag.getWidth();
-        int yOffSet = rectDrag.getHeight()/2;
-
-
+        int xOffSet = rectDrop.getX() - rectDrag.getX();
+        new Actions(wd).clickAndHold(dragMe).moveByOffset(xOffSet,0).release().perform();
 
     }
 
     public boolean isDragAndDropDone() {
         return wd.findElement(By.xpath("//p[.='Dropped!']")).getText().contains("Dropped!");
+    }
+
+    public void refreshPage() {
+        wd.navigate().refresh();
+    }
+
+    public void dropAcceptable() {
+        new WebDriverWait(wd,15).until(ExpectedConditions.visibilityOf(
+                wd.findElement(By.xpath("//a[.='Accept']"))));
+        click(By.xpath("//a[.='Accept']"));
+        WebElement acceptable = wd.findElement(By.id("acceptable"));
+        WebElement dropHere = wd.findElement(By.cssSelector("div[id='acceptDropContainer'] div#droppable"));
+        new Actions(wd).dragAndDrop(acceptable,dropHere).perform();
+        Assert.assertEquals(wd.findElement(By.xpath("//p[.='Dropped!']")).getText(),"Dropped!");
+    }
+
+    public void dropNotAcceptable() {
+        new WebDriverWait(wd,15).until(ExpectedConditions.visibilityOf(
+                wd.findElement(By.xpath("//a[.='Accept']"))));
+        click(By.xpath("//a[.='Accept']"));
+        WebElement notAcceptable = wd.findElement(By.id("notAcceptable"));
+        WebElement dropHere = wd.findElement(By.cssSelector("div[id='acceptDropContainer'] div#droppable"));
+        new Actions(wd).clickAndHold(notAcceptable).moveToElement(dropHere).perform();
+        Assert.assertFalse(wd.findElement(By.xpath("//p[.='Dropped!']")).getText().contains("Dropped!"));
     }
 }
 
