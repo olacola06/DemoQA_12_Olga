@@ -5,72 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf7aa710-d5dc-4a96-9760-aa062c8cd5d5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220904T205300.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220906T163913.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220906T164915.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220906T165740.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220906T171447.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220906T173031.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220906T174048.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220906T174727.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220906T175622.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220906T180909.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220906T182100.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220906T182529.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220907T172858.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220907T173403.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220907T175646.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220907T180136.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220907T181033.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220915T184902.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220915T184945.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220915T185012.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220915T185213.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220915T185332.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220915T185407.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220915T185639.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220917T175124.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220917T175335.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220917T175408.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220917T175438.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220917T175521.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220917T181506.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220917T194538.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220917T195923.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220917T200057.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220917T200535.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20220917T200915.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/ActionHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/ActionHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/HelperBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/HelperBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/HelperCalender.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/HelperCalender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/ActionButtonTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/ActionButtonTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/DropAndDragTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/DropAndDragTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/SelectTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/SelectTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/TestAlerts.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/TestAlerts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/TestCalender.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/TestCalender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.DropAndDragTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.DropAndDragTests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-tests.DropAndDragTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-tests.DropAndDragTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/manager/ActionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/ActionHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperCalender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperCalender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ActionButtonTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ActionButtonTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/DropAndDragTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/DropAndDragTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SelectTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SelectTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestAlerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestAlerts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestCalender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestCalender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/screenshots/screenshot622.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +47,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.DropAndDragTests">
+  <component name="RunManager" selected="Gradle.DropAndDragTests.revertDraggable">
     <configuration name="DropAndDragTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -125,29 +62,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;tests.DropAndDragTests&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="DropAndDragTests.droppable2 (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.DropAndDragTests.droppable2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -203,7 +117,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'tests'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DropAndDragTests.droppablePreventPropagation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -216,7 +130,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.*&quot;" />
+            <option value="&quot;tests.DropAndDragTests.droppablePreventPropagation&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DropAndDragTests.revertDraggable" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.DropAndDragTests.revertDraggable&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -228,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DropAndDragTests.revertDraggable" />
+        <item itemvalue="Gradle.DropAndDragTests.droppablePreventPropagation" />
         <item itemvalue="Gradle.DropAndDragTests" />
         <item itemvalue="Gradle.DropAndDragTests.droppableNotAccept" />
         <item itemvalue="Gradle.DropAndDragTests.droppableAccept" />
-        <item itemvalue="Gradle.Tests in 'tests'" />
-        <item itemvalue="Gradle.DropAndDragTests.droppable2 (1)" />
       </list>
     </recent_temporary>
   </component>

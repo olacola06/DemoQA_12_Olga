@@ -1,0 +1,15 @@
+12:10:18 INFO  manager.ApplicationManager - All tests start in Chrome
+12:10:33 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //h5[.='Interactions']
+12:10:33 INFO  manager.MyListener - Element with locator-->By.xpath: //h5[.='Interactions'] was found
+12:10:33 INFO  tests.Base - Starts test named:--> revertDraggable
+12:10:33 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //li[.='Droppable']
+12:10:34 INFO  manager.MyListener - Element with locator-->By.xpath: //li[.='Droppable'] was found
+12:10:34 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[.='Revert Draggable']
+12:10:35 INFO  manager.MyListener - Element with locator-->By.xpath: //*[.='Revert Draggable'] was found
+12:10:35 INFO  manager.MyListener - Start to find element with locator-->By.id: revertable
+12:10:35 INFO  manager.MyListener - Element with locator-->By.id: revertable was found
+12:10:35 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div.revertable-drop-container div#droppable
+12:10:36 INFO  manager.MyListener - Element with locator-->By.cssSelector: div.revertable-drop-container div#droppable was found
+12:10:38 INFO  tests.Base - Finished test named:--> revertDraggable
+12:10:38 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: a[href='https://demoqa.com']
+12:10:38 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='https://demoqa.com'] was found

@@ -1,9 +1,6 @@
 package manager;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Rectangle;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -103,6 +100,30 @@ public class ActionHelper extends HelperBase {
         WebElement dropHere = wd.findElement(By.cssSelector("div[id='acceptDropContainer'] div#droppable"));
         new Actions(wd).clickAndHold(notAcceptable).moveToElement(dropHere).perform();
         Assert.assertFalse(wd.findElement(By.xpath("//p[.='Dropped!']")).getText().contains("Dropped!"));
+    }
+
+    public void dropPreventGreedy() {
+        new WebDriverWait(wd,15).until(ExpectedConditions.elementToBeClickable(
+                wd.findElement(By.xpath("//*[.='Prevent Propogation']")))).click();
+        WebElement innerDrop = wd.findElement(By.xpath("//*[.='Inner droppable (greedy)']"));
+        WebElement dragMe = wd.findElement(By.id("dragBox"));
+        Actions action = new Actions(wd);
+        action.dragAndDrop(dragMe,innerDrop).perform();
+        Assert.assertTrue(wd.findElements(By.xpath("//*[.='Dropped!']")).size()>0);
+    }
+    public void willRevert() {
+        new WebDriverWait(wd,15).until(ExpectedConditions
+                .visibilityOf(wd.findElement(By.xpath("//*[.='Revert Draggable']")))).click();
+        WebElement willRevert = wd.findElement(By.id("revertable"));
+        Rectangle rect = willRevert.getRect();
+        Point start = rect.getPoint();
+        System.out.println("Started point of willRevert square is-> "+start.toString());
+        WebElement dropHere = wd.findElement(By.cssSelector("div.revertable-drop-container div#droppable"));
+        new Actions(wd).dragAndDrop(willRevert,dropHere).perform();
+        pause(2000);
+        Point finish = rect.getPoint();
+        System.out.println("Finished point of willRevert square is-> "+finish.toString());
+        Assert.assertEquals(start.getX(),finish.getX());
     }
 }
 

@@ -37,6 +37,17 @@ public class DropAndDragTests extends Base{
     public void droppableNotAccept(){
         app.actionH().dropNotAcceptable();
     }
+    @Test
+    public void droppablePreventPropagation(){
+        //app.actionH().clickDroppable();
+        app.actionH().dropPreventGreedy();
+    }
+    @Test
+    public void revertDraggable(){
+        app.actionH().clickDroppable();
+        app.actionH().willRevert();
+
+    }
     @AfterMethod
     public void refreshPage(){
         app.actionH().refreshPage();
