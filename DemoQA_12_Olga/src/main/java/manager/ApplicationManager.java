@@ -23,6 +23,7 @@ public class ApplicationManager {
     HelperCalender calender;
     SelectHelper selector;
     ActionHelper actionH;
+    Interactions inters;
 
     public void start() {
         if (browser.equals(BrowserType.CHROME)) {
@@ -47,6 +48,7 @@ public class ApplicationManager {
         calender = new HelperCalender(wd);
         selector = new SelectHelper(wd);
         actionH = new ActionHelper(wd);
+        inters = new Interactions(wd);
 
     }
 
@@ -63,6 +65,9 @@ public class ApplicationManager {
     }
     public ActionHelper actionH(){
         return actionH;
+    }
+    public Interactions inters(){
+        return inters;
     }
 
     public void quit() {

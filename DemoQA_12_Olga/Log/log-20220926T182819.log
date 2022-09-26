@@ -1,0 +1,21 @@
+18:28:19 INFO  manager.ApplicationManager - All tests start in Chrome
+18:28:24 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //h5[.='Elements']
+18:28:24 INFO  manager.MyListener - Element with locator-->By.xpath: //h5[.='Elements'] was found
+18:28:24 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //span[.='Buttons']
+18:28:24 INFO  manager.MyListener - Element with locator-->By.xpath: //span[.='Buttons'] was found
+18:28:24 INFO  tests.Base - Starts test named:--> clicks
+18:28:24 INFO  manager.MyListener - Start to find element with locator-->By.id: doubleClickBtn
+18:28:24 INFO  manager.MyListener - Element with locator-->By.id: doubleClickBtn was found
+18:28:24 INFO  manager.MyListener - Start to find element with locator-->By.id: doubleClickMessage
+18:28:24 INFO  manager.MyListener - Element with locator-->By.id: doubleClickMessage was found
+18:28:24 INFO  manager.MyListener - Start to find element with locator-->By.id: rightClickBtn
+18:28:24 INFO  manager.MyListener - Element with locator-->By.id: rightClickBtn was found
+18:28:24 INFO  manager.MyListener - Start to find element with locator-->By.id: rightClickMessage
+18:28:24 INFO  manager.MyListener - Element with locator-->By.id: rightClickMessage was found
+18:28:25 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //button[.='Click Me']
+18:28:25 INFO  manager.MyListener - Element with locator-->By.xpath: //button[.='Click Me'] was found
+18:28:25 INFO  manager.MyListener - Start to find element with locator-->By.id: dynamicClickMessage
+18:28:25 INFO  manager.MyListener - Element with locator-->By.id: dynamicClickMessage was found
+18:28:25 INFO  tests.Base - Finished test named:--> clicks
+18:28:25 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: a[href='https://demoqa.com']
+18:28:25 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='https://demoqa.com'] was found

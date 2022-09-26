@@ -1,0 +1,112 @@
+18:28:37 INFO  manager.ApplicationManager - All tests start in Chrome
+18:28:41 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //h5[.='Interactions']
+18:28:41 INFO  manager.MyListener - Element with locator-->By.xpath: //h5[.='Interactions'] was found
+18:28:41 INFO  tests.Base - Starts test named:--> droppable
+18:28:41 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //li[.='Droppable']
+18:28:41 INFO  manager.MyListener - Element with locator-->By.xpath: //li[.='Droppable'] was found
+18:28:41 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[id='draggable']
+18:28:41 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[id='draggable'] was found
+18:28:41 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div#simpleDropContainer div#droppable
+18:28:41 INFO  manager.MyListener - Element with locator-->By.cssSelector: div#simpleDropContainer div#droppable was found
+18:28:42 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //p[.='Dropped!']
+18:28:47 INFO  manager.MyListener - Something went wrong-->https://demoqa.com/droppable
+18:28:47 INFO  manager.MyListener - no such element: Unable to locate element: {"method":"xpath","selector":"//p[.='Dropped!']"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60882}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 663288e0e4ffad906552e15745e393b5
+*** Element info: {Using=xpath, value=//p[.='Dropped!']}
+18:28:47 INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[.='Dropped!']"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60882}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 663288e0e4ffad906552e15745e393b5
+*** Element info: {Using=xpath, value=//p[.='Dropped!']}
+18:28:48 INFO  tests.Base - Finished test named:--> droppable
+18:28:48 INFO  tests.Base - Starts test named:--> droppable2
+18:28:48 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[id='draggable']
+18:28:48 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[id='draggable'] was found
+18:28:48 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div#simpleDropContainer div#droppable
+18:28:48 INFO  manager.MyListener - Element with locator-->By.cssSelector: div#simpleDropContainer div#droppable was found
+18:28:48 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //p[.='Dropped!']
+18:28:48 INFO  manager.MyListener - Element with locator-->By.xpath: //p[.='Dropped!'] was found
+18:28:49 INFO  tests.Base - Finished test named:--> droppable2
+18:28:49 INFO  tests.Base - Starts test named:--> droppableAccept
+18:28:49 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //a[.='Accept']
+18:28:49 INFO  manager.MyListener - Element with locator-->By.xpath: //a[.='Accept'] was found
+18:28:49 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //a[.='Accept']
+18:28:49 INFO  manager.MyListener - Element with locator-->By.xpath: //a[.='Accept'] was found
+18:28:49 INFO  manager.MyListener - Start to find element with locator-->By.id: acceptable
+18:28:49 INFO  manager.MyListener - Element with locator-->By.id: acceptable was found
+18:28:49 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[id='acceptDropContainer'] div#droppable
+18:28:49 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[id='acceptDropContainer'] div#droppable was found
+18:28:49 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //p[.='Dropped!']
+18:28:49 INFO  manager.MyListener - Element with locator-->By.xpath: //p[.='Dropped!'] was found
+18:28:49 INFO  tests.Base - Finished test named:--> droppableAccept
+18:28:49 INFO  tests.Base - Starts test named:--> droppableNotAccept
+18:28:49 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //a[.='Accept']
+18:28:49 INFO  manager.MyListener - Element with locator-->By.xpath: //a[.='Accept'] was found
+18:28:49 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //a[.='Accept']
+18:28:49 INFO  manager.MyListener - Element with locator-->By.xpath: //a[.='Accept'] was found
+18:28:50 INFO  manager.MyListener - Start to find element with locator-->By.id: notAcceptable
+18:28:50 INFO  manager.MyListener - Element with locator-->By.id: notAcceptable was found
+18:28:50 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: div[id='acceptDropContainer'] div#droppable
+18:28:50 INFO  manager.MyListener - Element with locator-->By.cssSelector: div[id='acceptDropContainer'] div#droppable was found
+18:28:50 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //p[.='Dropped!']
+18:28:55 INFO  manager.MyListener - Something went wrong-->https://demoqa.com/droppable
+18:28:55 INFO  manager.MyListener - no such element: Unable to locate element: {"method":"xpath","selector":"//p[.='Dropped!']"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60882}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 663288e0e4ffad906552e15745e393b5
+*** Element info: {Using=xpath, value=//p[.='Dropped!']}
+18:28:55 INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[.='Dropped!']"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60882}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 663288e0e4ffad906552e15745e393b5
+*** Element info: {Using=xpath, value=//p[.='Dropped!']}
+18:28:56 INFO  tests.Base - Finished test named:--> droppableNotAccept
+18:28:56 INFO  tests.Base - Starts test named:--> droppablePreventPropagation
+18:28:56 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[.='Prevent Propogation']
+18:28:56 INFO  manager.MyListener - Element with locator-->By.xpath: //*[.='Prevent Propogation'] was found
+18:28:56 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[.='Inner droppable (greedy)']
+18:28:56 INFO  manager.MyListener - Element with locator-->By.xpath: //*[.='Inner droppable (greedy)'] was found
+18:28:56 INFO  manager.MyListener - Start to find element with locator-->By.id: dragBox
+18:28:56 INFO  manager.MyListener - Element with locator-->By.id: dragBox was found
+18:28:56 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[.='Dropped!']
+18:28:56 INFO  manager.MyListener - Element with locator-->By.xpath: //*[.='Dropped!'] was found
+18:28:57 INFO  tests.Base - Finished test named:--> droppablePreventPropagation
+18:28:57 INFO  tests.Base - Starts test named:--> revertDraggable
+18:28:57 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //li[.='Droppable']
+18:28:57 INFO  manager.MyListener - Element with locator-->By.xpath: //li[.='Droppable'] was found
+18:28:58 INFO  manager.MyListener - Something went wrong-->https://demoqa.com/droppable
+18:28:58 INFO  manager.MyListener - element click intercepted: Element <li class="btn btn-light active" id="item-3">...</li> is not clickable at point (200, 676). Other element would receive the click: <footer>...</footer>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60882}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 663288e0e4ffad906552e15745e393b5
+18:28:58 INFO  manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <li class="btn btn-light active" id="item-3">...</li> is not clickable at point (200, 676). Other element would receive the click: <footer>...</footer>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60882}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 663288e0e4ffad906552e15745e393b5
+18:28:59 INFO  tests.Base - Finished test named:--> revertDraggable
+18:28:59 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: a[href='https://demoqa.com']
+18:28:59 INFO  manager.MyListener - Element with locator-->By.cssSelector: a[href='https://demoqa.com'] was found

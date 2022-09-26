@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.Interactions" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-26T17:36:12" hostname="ARTEMKA" time="0.494">
+  <properties/>
+  <testcase name="selectableGrid" classname="tests.Interactions" time="0.494"/>
+  <system-out><![CDATA[20:36:12 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //h5[.='Interactions']
+20:36:12 INFO  manager.MyListener - Element with locator-->By.xpath: //h5[.='Interactions'] was found
+20:36:12 INFO  tests.Base - Starts test named:--> selectableGrid
+20:36:12 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //span[.='Selectable']
+20:36:12 INFO  manager.MyListener - Element with locator-->By.xpath: //span[.='Selectable'] was found
+20:36:12 INFO  manager.MyListener - Start to find element with locator-->By.id: demo-tab-grid
+20:36:12 INFO  manager.MyListener - Element with locator-->By.id: demo-tab-grid was found
+20:36:12 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //li[.='Two']
+20:36:12 INFO  manager.MyListener - Element with locator-->By.xpath: //li[.='Two'] was found
+20:36:12 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //li[.='Four']
+20:36:12 INFO  manager.MyListener - Element with locator-->By.xpath: //li[.='Four'] was found
+20:36:13 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //li[.='Six']
+20:36:13 INFO  manager.MyListener - Element with locator-->By.xpath: //li[.='Six'] was found
+20:36:13 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //li[.='Nine']
+20:36:13 INFO  manager.MyListener - Element with locator-->By.xpath: //li[.='Nine'] was found
+20:36:13 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: li[class='list-group-item active list-group-item-action']
+20:36:13 INFO  manager.MyListener - Element with locator-->By.cssSelector: li[class='list-group-item active list-group-item-action'] was found
+20:36:13 INFO  tests.Base - Finished test named:--> selectableGrid
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

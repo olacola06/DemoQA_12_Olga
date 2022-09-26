@@ -57,6 +57,7 @@ public class ActionHelper extends HelperBase {
     }
 
     public void dragAndDropMe() {
+        pause(3000);
         WebElement dragMe = wd.findElement(By.cssSelector("div[id='draggable']"));
         WebElement dropHere = wd.findElement(By.cssSelector("div#simpleDropContainer div#droppable"));
         Actions action  = new Actions(wd);

@@ -1,0 +1,11 @@
+20:07:04 INFO  manager.ApplicationManager - All tests start in Chrome
+20:07:08 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //h5[.='Interactions']
+20:07:08 INFO  manager.MyListener - Element with locator-->By.xpath: //h5[.='Interactions'] was found
+20:07:08 INFO  tests.Base - Starts test named:--> selectableGrid
+20:07:08 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //span[.='Selectable']
+20:07:08 INFO  manager.MyListener - Element with locator-->By.xpath: //span[.='Selectable'] was found
+20:07:08 INFO  manager.MyListener - Start to find element with locator-->By.id: demo-tab-grid
+20:07:08 INFO  manager.MyListener - Element with locator-->By.id: demo-tab-grid was found
+20:07:08 INFO  manager.MyListener - Start to find element with locator-->By.id: id=gridContainer
+20:07:14 INFO  manager.MyListener - Element with locator-->By.id: id=gridContainer was found
+20:07:14 INFO  tests.Base - Finished test named:--> selectableGrid
