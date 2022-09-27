@@ -68,6 +68,7 @@ public class Interactions extends HelperBase{
         int xOffSetMin = rect.getWidth()-250;
         int yOffSetMin = rect.getHeight()-250;
         action.clickAndHold(spanDrag).moveByOffset(xOffSetMin,yOffSetMin).perform();
+        Assert.assertEquals(wd.findElement(By.id("resizableBoxWithRestriction")).getRect().getWidth(),150);
 
     }
 }

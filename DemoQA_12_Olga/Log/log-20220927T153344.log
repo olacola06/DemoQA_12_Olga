@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.Interactions" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-27T12:33:48" hostname="ARTEMKA" time="2.531">
-  <properties/>
-  <testcase name="resizableTest" classname="tests.Interactions" time="2.531"/>
-  <system-out><![CDATA[15:33:48 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //h5[.='Interactions']
+15:33:44 INFO  manager.ApplicationManager - All tests start in Chrome
+15:33:48 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //h5[.='Interactions']
 15:33:48 INFO  manager.MyListener - Element with locator-->By.xpath: //h5[.='Interactions'] was found
 15:33:48 INFO  tests.Base - Starts test named:--> resizableTest
 15:33:48 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //span[.='Resizable']
@@ -11,10 +8,6 @@
 15:33:50 INFO  manager.MyListener - Element with locator-->By.cssSelector: #resizableBoxWithRestriction span[class='react-resizable-handle react-resizable-handle-se'] was found
 15:33:50 INFO  manager.MyListener - Start to find element with locator-->By.id: resizableBoxWithRestriction
 15:33:50 INFO  manager.MyListener - Element with locator-->By.id: resizableBoxWithRestriction was found
-X = 403, Y = 327
 15:33:51 INFO  manager.MyListener - Start to find element with locator-->By.id: resizableBoxWithRestriction
 15:33:51 INFO  manager.MyListener - Element with locator-->By.id: resizableBoxWithRestriction was found
 15:33:51 INFO  tests.Base - Finished test named:--> resizableTest
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
