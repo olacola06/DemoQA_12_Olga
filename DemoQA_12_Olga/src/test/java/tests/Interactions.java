@@ -23,4 +23,9 @@ public class Interactions extends Base{
         app.inters().selectableGrid("Two,Four,Six,Nine");
 
     }
+    @Test
+    public void resizableTest(){
+        app.inters().chooseResizable();
+        app.inters().resizableBox();
+    }
 }

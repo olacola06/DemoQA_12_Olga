@@ -1,0 +1,28 @@
+15:28:30 INFO  manager.ApplicationManager - All tests start in Chrome
+15:28:34 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //h5[.='Interactions']
+15:28:34 INFO  manager.MyListener - Element with locator-->By.xpath: //h5[.='Interactions'] was found
+15:28:35 INFO  tests.Base - Starts test named:--> resizableTest
+15:28:35 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //span[.='Resizable']
+15:28:35 INFO  manager.MyListener - Element with locator-->By.xpath: //span[.='Resizable'] was found
+15:28:37 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: #resizableBoxWithRestriction span[class='react-resizable-handle react-resizable-handle-se']
+15:28:37 INFO  manager.MyListener - Element with locator-->By.cssSelector: #resizableBoxWithRestriction span[class='react-resizable-handle react-resizable-handle-se'] was found
+15:28:37 INFO  manager.MyListener - Start to find element with locator-->By.id: resizableBoxWithRestriction
+15:28:37 INFO  manager.MyListener - Element with locator-->By.id: resizableBoxWithRestriction was found
+15:28:40 INFO  manager.MyListener - Something went wrong-->https://demoqa.com/resizable
+15:28:40 INFO  manager.MyListener - stale element reference: element is not attached to the page document
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59867}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f22e58a2508e55160f1b73e26999179
+15:28:40 INFO  manager.MyListener - org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59867}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f22e58a2508e55160f1b73e26999179
+15:28:40 INFO  tests.Base - Finished test named:--> resizableTest

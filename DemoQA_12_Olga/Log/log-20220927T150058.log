@@ -1,0 +1,26 @@
+15:00:58 INFO  manager.ApplicationManager - All tests start in Chrome
+15:01:02 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //h5[.='Interactions']
+15:01:02 INFO  manager.MyListener - Element with locator-->By.xpath: //h5[.='Interactions'] was found
+15:01:02 INFO  tests.Base - Starts test named:--> resizableTest
+15:01:02 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //span[.='Resizable']
+15:01:02 INFO  manager.MyListener - Element with locator-->By.xpath: //span[.='Resizable'] was found
+15:01:05 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: #resizableBoxWithRestriction span[class='react-resizable-handle react-resizable-handle-se']
+15:01:05 INFO  manager.MyListener - Element with locator-->By.cssSelector: #resizableBoxWithRestriction span[class='react-resizable-handle react-resizable-handle-se'] was found
+15:01:05 INFO  manager.MyListener - Start to find element with locator-->By.id: resizableBoxWithRestriction
+15:01:05 INFO  manager.MyListener - Element with locator-->By.id: resizableBoxWithRestriction was found
+15:01:05 INFO  manager.MyListener - Something went wrong-->https://demoqa.com/resizable
+15:01:05 INFO  manager.MyListener - move target out of bounds
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54686}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a5c98e6d533e357a14e437f177074f94
+15:01:05 INFO  manager.MyListener - org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARTEMKA', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\ompre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54686}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a5c98e6d533e357a14e437f177074f94
+15:01:06 INFO  tests.Base - Finished test named:--> resizableTest

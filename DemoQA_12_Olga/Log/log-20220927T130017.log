@@ -1,0 +1,11 @@
+13:00:17 INFO  manager.ApplicationManager - All tests start in Chrome
+13:00:21 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //h5[.='Interactions']
+13:00:21 INFO  manager.MyListener - Element with locator-->By.xpath: //h5[.='Interactions'] was found
+13:00:21 INFO  tests.Base - Starts test named:--> resizableTest
+13:00:21 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //span[.='Resizable']
+13:00:22 INFO  manager.MyListener - Element with locator-->By.xpath: //span[.='Resizable'] was found
+13:00:22 INFO  manager.MyListener - Start to find element with locator-->By.cssSelector: #resizableBoxWithRestriction span[class='react-resizable-handle react-resizable-handle-se']
+13:00:22 INFO  manager.MyListener - Element with locator-->By.cssSelector: #resizableBoxWithRestriction span[class='react-resizable-handle react-resizable-handle-se'] was found
+13:00:22 INFO  manager.MyListener - Start to find element with locator-->By.id: resizableBoxWithRestriction
+13:00:22 INFO  manager.MyListener - Element with locator-->By.id: resizableBoxWithRestriction was found
+13:00:22 INFO  tests.Base - Finished test named:--> resizableTest

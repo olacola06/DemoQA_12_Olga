@@ -1,6 +1,7 @@
 package manager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Rectangle;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -50,4 +51,23 @@ public class Interactions extends HelperBase{
         Assert.assertEquals(selectedNums.size(),list.length);
     }
 
+    public void chooseResizable() {
+        click(By.xpath("//span[.='Resizable']"));
+    }
+
+    public void resizableBox() {
+        pause(2000);
+        WebElement spanDrag = wd.findElement(By.cssSelector
+                ("#resizableBoxWithRestriction span[class='react-resizable-handle react-resizable-handle-se']"));
+        Rectangle rect = wd.findElement(By.id("resizableBoxWithRestriction")).getRect();
+        System.out.println("X = "+rect.getX()+", Y = "+rect.getY());
+        Actions action = new Actions(wd);
+        int xOffSetMax = rect.getWidth()+100; //offSet means difference between rect width and height And length where to move rect
+        int yOffSetMax = rect.getHeight()-100;//in this case rect width 200 will be moved on 200+100 = 300, total 500 if to count from getX()
+        //action.dragAndDropBy(spanDrag,xOffSetMax,yOffSetMax).perform();
+        int xOffSetMin = rect.getWidth()-250;
+        int yOffSetMin = rect.getHeight()-250;
+        action.clickAndHold(spanDrag).moveByOffset(xOffSetMin,yOffSetMin).perform();
+
+    }
 }
