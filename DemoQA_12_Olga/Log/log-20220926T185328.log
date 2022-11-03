@@ -1,9 +1,0 @@
-18:53:28 INFO  manager.ApplicationManager - All tests start in Chrome
-18:53:33 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //h5[.='Interactions']
-18:53:33 INFO  manager.MyListener - Element with locator-->By.xpath: //h5[.='Interactions'] was found
-18:53:33 INFO  tests.Base - Starts test named:--> sortableList
-18:53:33 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //span[.='Sortable']
-18:53:33 INFO  manager.MyListener - Element with locator-->By.xpath: //span[.='Sortable'] was found
-18:53:33 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //div[.='One']
-18:53:33 INFO  manager.MyListener - Element with locator-->By.xpath: //div[.='One'] was found
-18:53:33 INFO  tests.Base - Finished test named:--> sortableList
