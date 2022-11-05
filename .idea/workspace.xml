@@ -5,232 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6bbb78f-0c2f-4162-97bc-19ac9040f628" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestsLinks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220921T093227.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220921T093907.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220921T094219.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220921T095332.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220921T143453.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220921T143803.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220921T144122.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220921T144634.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220921T144749.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220921T144908.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220921T145227.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220921T145636.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220921T145850.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220921T175252.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220921T175412.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220921T181240.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220921T181417.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220921T181615.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220921T181758.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220921T182111.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220921T182313.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220922T113535.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220922T113806.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220922T113943.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220922T121018.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220922T121334.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220922T121451.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T182722.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T182819.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T182837.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T183022.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T185328.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T185656.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T185852.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T190021.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T190132.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T190218.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T190727.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T190857.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T192707.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T193030.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T193059.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T193211.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T193235.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T193344.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T193426.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T193452.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T193514.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T193654.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T193830.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T200541.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T200704.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T201801.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T202125.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T202209.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T203454.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220926T203607.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T124933.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T125213.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T125548.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T125659.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T130017.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T130213.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T142703.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T142811.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T142835.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T143052.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T143123.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T143156.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T143707.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T143827.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T144024.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T144626.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T145415.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T145659.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T145845.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T150027.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T150058.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T150115.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T150142.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T150205.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T150308.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T150351.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T150718.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T150747.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T150810.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T150830.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T150856.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T151043.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T151130.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T151309.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T151341.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T151416.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T151538.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T151647.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T151831.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T152451.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T152619.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T152652.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T152716.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T152759.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T152830.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T152935.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T153250.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/Log/log-20220927T153344.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/classes/java/main/manager/ActionHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/classes/java/main/manager/ApplicationManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/classes/java/main/manager/HelperAlerts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/classes/java/main/manager/HelperBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/classes/java/main/manager/HelperCalender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/classes/java/main/manager/Interactions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/classes/java/main/manager/MyListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/classes/java/main/manager/SelectHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/classes/java/main/models/Student$StudentBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/classes/java/main/models/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/classes/java/test/TestWithHideAds.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/classes/java/test/tests/ActionButtonTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/classes/java/test/tests/Base.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/classes/java/test/tests/DropAndDragTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/classes/java/test/tests/Interactions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/classes/java/test/tests/SelectTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/classes/java/test/tests/TestAlerts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/classes/java/test/tests/TestCalender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/reports/tests/test/classes/tests.Interactions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/reports/tests/test/packages/tests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/resources/test/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/resources/test/option.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/test-results/test/TEST-tests.Interactions.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/test-results/test/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/main/java/manager/ActionHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/main/java/manager/ApplicationManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/main/java/manager/HelperAlerts.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/main/java/manager/HelperBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/main/java/manager/HelperCalender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/main/java/manager/Interactions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/main/java/manager/MyListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/main/java/manager/SelectHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/main/java/manager/Stamm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/main/java/models/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/Image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/java/TestWithHideAds.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/java/tests/ActionButtonTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/java/tests/Base.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/java/tests/DropAndDragTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/java/tests/Interactions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/java/tests/SelectTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/java/tests/TestAlerts.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/java/tests/TestCalender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/resources/option.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot1064.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot1085.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot1148.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot1177.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot1197.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot122.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot1352.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot1375.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot139.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot1541.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot158.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot166.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot1710.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot1716.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot1725.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot1733.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot1739.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot1744.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot1776.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot1783.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot1791.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot1794.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot189.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot1895.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot1903.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot1948.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot1980.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot205.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot2217.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot2361.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot252.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot2571.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot2888.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot2963.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot3040.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot3047.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot3245.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot3257.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot3319.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot3483.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot3590.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot502.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot531.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot554.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot573.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot92.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot955.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot963.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoQA_12_Olga/src/test/screenshots/screenshot977.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestsLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestsLinks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,12 +38,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "C:/Users/Olga/DemoQa_Haifa13/DemoQa_Haifa13"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Olga/DemoQA_12_Olga&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Gradle.TestsLinks">
     <configuration name="TestsLinks" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -289,9 +67,81 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="TestsLinks.linkAPICreate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.TestsLinks.linkAPICreate&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestsLinks.linkAPIMoved" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.TestsLinks.linkAPIMoved&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestsLinks.linkNewTab" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.TestsLinks.linkNewTab&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.TestsLinks" />
+        <item itemvalue="Gradle.TestsLinks.linkNewTab" />
+        <item itemvalue="Gradle.TestsLinks.linkAPIMoved" />
+        <item itemvalue="Gradle.TestsLinks.linkAPICreate" />
       </list>
     </recent_temporary>
   </component>

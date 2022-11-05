@@ -3,6 +3,7 @@ package tests;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
+import org.hamcrest.core.StringContains;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -15,6 +16,11 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import static com.jayway.restassured.RestAssured.given;
+import static org.hamcrest.core.StringContains.containsString;
 
 public class TestsLinks {
     WebDriver driver;
@@ -32,10 +38,10 @@ public class TestsLinks {
 //        driver.findElement(By.xpath("//span[.='Links']")).click();
     }
     @Test
-    public void linkAPI() throws IOException {
+    public void linkAPICreate() throws IOException {
        new WebDriverWait(driver,10).until(ExpectedConditions
-                .visibilityOf(driver.findElement(By.cssSelector("a[id='created']"))));
-        driver.findElement(By.cssSelector("a[id='created']")).click();
+                .visibilityOf(driver.findElement(By.cssSelector("a[id='created']")))).click();
+       pause(2000);
         String responseCode = driver.findElement(By.xpath("(//p[@id='linkResponse']) /b[1]")).getText();
         String responseText = driver.findElement(By.xpath("(//p[@id='linkResponse']) /b[2]")).getText();
 
@@ -44,5 +50,39 @@ public class TestsLinks {
         Response response = client.newCall(request).execute();
         Assert.assertEquals(response.code(),Integer.parseInt(responseCode));
         Assert.assertEquals(response.message(),responseText);
+    }
+    @Test
+    public void linkAPIUnauthorized(){
+        new WebDriverWait(driver,10).until(ExpectedConditions
+                .visibilityOf(driver.findElement(By.cssSelector("a[id='unauthorized']")))).click();
+        pause(2000);
+        String responseCode = driver.findElement(By.xpath("(//p[@id='linkResponse']) /b[1]")).getText();
+        String responseText = driver.findElement(By.xpath("(//p[@id='linkResponse']) /b[2]")).getText();
+
+        given()
+                .when()
+                .get("https://demoqa.com/unauthorized")
+                .then()
+                .assertThat().statusCode(Integer.parseInt(responseCode))
+                .assertThat().statusLine(containsString(responseText));
+
+    }
+    @Test
+    public void linkNewTab(){
+        new WebDriverWait(driver,10).until(ExpectedConditions
+                .visibilityOf(driver.findElement(By.cssSelector("a[id='dynamicLink']")))).click();
+        List<String> tabs = new ArrayList<>(driver.getWindowHandles());
+        driver.switchTo().window(tabs.get(1));
+        Assert.assertEquals(driver.getCurrentUrl(),"https://demoqa.com/");
+        driver.switchTo().window(tabs.get(1)).close();
+        driver.switchTo().window(tabs.get(0));
+
+    }
+    public void pause(int time){
+        try{ Thread.sleep(time);
+
+        }catch (InterruptedException e){
+            throw new RuntimeException();
+        }
     }
 }
