@@ -24,6 +24,7 @@ public class ApplicationManager {
     SelectHelper selector;
     ActionHelper actionH;
     Interactions inters;
+    BrokenLinksHelper brokenLink;
 
     public void start() {
         if (browser.equals(BrowserType.CHROME)) {
@@ -49,7 +50,7 @@ public class ApplicationManager {
         selector = new SelectHelper(wd);
         actionH = new ActionHelper(wd);
         inters = new Interactions(wd);
-
+        brokenLink = new BrokenLinksHelper(wd);
     }
 
     public HelperAlerts alert() {
@@ -59,7 +60,6 @@ public class ApplicationManager {
     public HelperCalender calender() {
         return calender;
     }
-
     public SelectHelper selector() {
         return selector;
     }
@@ -69,7 +69,9 @@ public class ApplicationManager {
     public Interactions inters(){
         return inters;
     }
-
+    public BrokenLinksHelper brokenLink(){
+        return brokenLink;
+    }
     public void quit() {
         wd.quit();
     }

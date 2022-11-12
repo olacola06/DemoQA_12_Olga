@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6bbb78f-0c2f-4162-97bc-19ac9040f628" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/manager/BrokenLinksHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/BrokenLinksTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestsLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestsLinks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,30 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Olga/DemoQA_12_Olga&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.TestsLinks">
+  <component name="RunManager" selected="Gradle.BrokenLinksTests">
+    <configuration name="BrokenLinksTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.BrokenLinksTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="TestsLinks" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -138,6 +161,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BrokenLinksTests" />
         <item itemvalue="Gradle.TestsLinks" />
         <item itemvalue="Gradle.TestsLinks.linkNewTab" />
         <item itemvalue="Gradle.TestsLinks.linkAPIMoved" />
