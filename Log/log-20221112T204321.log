@@ -1,9 +1,0 @@
-20:43:21 INFO  manager.ApplicationManager - All tests start in Chrome
-20:43:26 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //h5[.='Elements']
-20:43:26 INFO  manager.MyListener - Element with locator-->By.xpath: //h5[.='Elements'] was found
-20:43:26 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //*[.='Broken Links - Images']
-20:43:26 INFO  manager.MyListener - Element with locator-->By.xpath: //*[.='Broken Links - Images'] was found
-20:43:26 INFO  tests.Base - Starts test named:--> brokenLink
-20:43:26 INFO  manager.MyListener - Start to find element with locator-->By.xpath: //a[@href]
-20:43:26 INFO  manager.MyListener - Element with locator-->By.xpath: //a[@href] was found
-20:43:26 INFO  tests.Base - Finished test named:--> brokenLink
