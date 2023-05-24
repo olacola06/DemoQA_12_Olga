@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a6bbb78f-0c2f-4162-97bc-19ac9040f628" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20221112T204034.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20221112T204321.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log-20230518T153750.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +65,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Olga/DemoQA_May_2023&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.SelectTests">
+  <component name="RunManager" selected="Gradle.TestCalender.fillStudentRegistrationForm">
     <configuration name="BrokenLinksTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -115,6 +112,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="TestCalender.fillStudentRegistrationForm" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.TestCalender.fillStudentRegistrationForm&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="TestsLinks" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -129,29 +149,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;tests.TestsLinks&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TestsLinks.linkAPIMoved" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.TestsLinks.linkAPIMoved&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -186,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestCalender.fillStudentRegistrationForm" />
         <item itemvalue="Gradle.SelectTests" />
         <item itemvalue="Gradle.BrokenLinksTests" />
         <item itemvalue="Gradle.TestsLinks" />
         <item itemvalue="Gradle.TestsLinks.linkNewTab" />
-        <item itemvalue="Gradle.TestsLinks.linkAPIMoved" />
       </list>
     </recent_temporary>
   </component>
